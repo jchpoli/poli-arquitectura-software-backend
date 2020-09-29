@@ -8,7 +8,7 @@ import org.springframework.beans.BeanWrapperImpl;
 
 /**
  *
- * @author Jonathan Castelblanco Higuera <jcastelblanco@sistemasenlinea.com.co>
+ * @author Jonathan Castelblanco Higuera <jocastelblanco3@poligran.edu.co>
  */
 public final class RestUtils {
 
