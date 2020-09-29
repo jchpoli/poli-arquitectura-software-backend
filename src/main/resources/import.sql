@@ -1,800 +1,874 @@
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(1, 'Bulbasaur', 'Grass', 'Poison', 318, 45, 49, 49, 65, 65, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(2, 'Ivysaur', 'Grass', 'Poison', 405, 60, 62, 63, 80, 80, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(3, 'Venusaur', 'Grass', 'Poison', 525, 80, 82, 83, 100, 100, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(3, 'VenusaurMega Venusaur', 'Grass', 'Poison', 625, 80, 100, 123, 122, 120, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(4, 'Charmander', 'Fire', '', 309, 39, 52, 43, 60, 50, 65, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(5, 'Charmeleon', 'Fire', '', 405, 58, 64, 58, 80, 65, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(6, 'Charizard', 'Fire', 'Flying', 534, 78, 84, 78, 109, 85, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(6, 'CharizardMega Charizard X', 'Fire', 'Dragon', 634, 78, 130, 111, 130, 85, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(6, 'CharizardMega Charizard Y', 'Fire', 'Flying', 634, 78, 104, 78, 159, 115, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(7, 'Squirtle', 'Water', '', 314, 44, 48, 65, 50, 64, 43, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(8, 'Wartortle', 'Water', '', 405, 59, 63, 80, 65, 80, 58, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(9, 'Blastoise', 'Water', '', 530, 79, 83, 100, 85, 105, 78, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(9, 'BlastoiseMega Blastoise', 'Water', '', 630, 79, 103, 120, 135, 115, 78, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(10, 'Caterpie', 'Bug', '', 195, 45, 30, 35, 20, 20, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(11, 'Metapod', 'Bug', '', 205, 50, 20, 55, 25, 25, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(12, 'Butterfree', 'Bug', 'Flying', 395, 60, 45, 50, 90, 80, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(13, 'Weedle', 'Bug', 'Poison', 195, 40, 35, 30, 20, 20, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(14, 'Kakuna', 'Bug', 'Poison', 205, 45, 25, 50, 25, 25, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(15, 'Beedrill', 'Bug', 'Poison', 395, 65, 90, 40, 45, 80, 75, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(15, 'BeedrillMega Beedrill', 'Bug', 'Poison', 495, 65, 150, 40, 15, 80, 145, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(16, 'Pidgey', 'Normal', 'Flying', 251, 40, 45, 40, 35, 35, 56, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(17, 'Pidgeotto', 'Normal', 'Flying', 349, 63, 60, 55, 50, 50, 71, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(18, 'Pidgeot', 'Normal', 'Flying', 479, 83, 80, 75, 70, 70, 101, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(18, 'PidgeotMega Pidgeot', 'Normal', 'Flying', 579, 83, 80, 80, 135, 80, 121, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(19, 'Rattata', 'Normal', '', 253, 30, 56, 35, 25, 35, 72, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(20, 'Raticate', 'Normal', '', 413, 55, 81, 60, 50, 70, 97, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(21, 'Spearow', 'Normal', 'Flying', 262, 40, 60, 30, 31, 31, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(22, 'Fearow', 'Normal', 'Flying', 442, 65, 90, 65, 61, 61, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(23, 'Ekans', 'Poison', '', 288, 35, 60, 44, 40, 54, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(24, 'Arbok', 'Poison', '', 438, 60, 85, 69, 65, 79, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(25, 'Pikachu', 'Electric', '', 320, 35, 55, 40, 50, 50, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(26, 'Raichu', 'Electric', '', 485, 60, 90, 55, 90, 80, 110, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(27, 'Sandshrew', 'Ground', '', 300, 50, 75, 85, 20, 30, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(28, 'Sandslash', 'Ground', '', 450, 75, 100, 110, 45, 55, 65, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(29, 'Nidoran♀', 'Poison', '', 275, 55, 47, 52, 40, 40, 41, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(30, 'Nidorina', 'Poison', '', 365, 70, 62, 67, 55, 55, 56, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(31, 'Nidoqueen', 'Poison', 'Ground', 505, 90, 92, 87, 75, 85, 76, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(32, 'Nidoran♂', 'Poison', '', 273, 46, 57, 40, 40, 40, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(33, 'Nidorino', 'Poison', '', 365, 61, 72, 57, 55, 55, 65, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(34, 'Nidoking', 'Poison', 'Ground', 505, 81, 102, 77, 85, 75, 85, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(35, 'Clefairy', 'Fairy', '', 323, 70, 45, 48, 60, 65, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(36, 'Clefable', 'Fairy', '', 483, 95, 70, 73, 95, 90, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(37, 'Vulpix', 'Fire', '', 299, 38, 41, 40, 50, 65, 65, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(38, 'Ninetales', 'Fire', '', 505, 73, 76, 75, 81, 100, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(39, 'Jigglypuff', 'Normal', 'Fairy', 270, 115, 45, 20, 45, 25, 20, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(40, 'Wigglytuff', 'Normal', 'Fairy', 435, 140, 70, 45, 85, 50, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(41, 'Zubat', 'Poison', 'Flying', 245, 40, 45, 35, 30, 40, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(42, 'Golbat', 'Poison', 'Flying', 455, 75, 80, 70, 65, 75, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(43, 'Oddish', 'Grass', 'Poison', 320, 45, 50, 55, 75, 65, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(44, 'Gloom', 'Grass', 'Poison', 395, 60, 65, 70, 85, 75, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(45, 'Vileplume', 'Grass', 'Poison', 490, 75, 80, 85, 110, 90, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(46, 'Paras', 'Bug', 'Grass', 285, 35, 70, 55, 45, 55, 25, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(47, 'Parasect', 'Bug', 'Grass', 405, 60, 95, 80, 60, 80, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(48, 'Venonat', 'Bug', 'Poison', 305, 60, 55, 50, 40, 55, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(49, 'Venomoth', 'Bug', 'Poison', 450, 70, 65, 60, 90, 75, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(50, 'Diglett', 'Ground', '', 265, 10, 55, 25, 35, 45, 95, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(51, 'Dugtrio', 'Ground', '', 405, 35, 80, 50, 50, 70, 120, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(52, 'Meowth', 'Normal', '', 290, 40, 45, 35, 40, 40, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(53, 'Persian', 'Normal', '', 440, 65, 70, 60, 65, 65, 115, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(54, 'Psyduck', 'Water', '', 320, 50, 52, 48, 65, 50, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(55, 'Golduck', 'Water', '', 500, 80, 82, 78, 95, 80, 85, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(56, 'Mankey', 'Fighting', '', 305, 40, 80, 35, 35, 45, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(57, 'Primeape', 'Fighting', '', 455, 65, 105, 60, 60, 70, 95, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(58, 'Growlithe', 'Fire', '', 350, 55, 70, 45, 70, 50, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(59, 'Arcanine', 'Fire', '', 555, 90, 110, 80, 100, 80, 95, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(60, 'Poliwag', 'Water', '', 300, 40, 50, 40, 40, 40, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(61, 'Poliwhirl', 'Water', '', 385, 65, 65, 65, 50, 50, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(62, 'Poliwrath', 'Water', 'Fighting', 510, 90, 95, 95, 70, 90, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(63, 'Abra', 'Psychic', '', 310, 25, 20, 15, 105, 55, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(64, 'Kadabra', 'Psychic', '', 400, 40, 35, 30, 120, 70, 105, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(65, 'Alakazam', 'Psychic', '', 500, 55, 50, 45, 135, 95, 120, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(65, 'AlakazamMega Alakazam', 'Psychic', '', 590, 55, 50, 65, 175, 95, 150, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(66, 'Machop', 'Fighting', '', 305, 70, 80, 50, 35, 35, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(67, 'Machoke', 'Fighting', '', 405, 80, 100, 70, 50, 60, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(68, 'Machamp', 'Fighting', '', 505, 90, 130, 80, 65, 85, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(69, 'Bellsprout', 'Grass', 'Poison', 300, 50, 75, 35, 70, 30, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(70, 'Weepinbell', 'Grass', 'Poison', 390, 65, 90, 50, 85, 45, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(71, 'Victreebel', 'Grass', 'Poison', 490, 80, 105, 65, 100, 70, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(72, 'Tentacool', 'Water', 'Poison', 335, 40, 40, 35, 50, 100, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(73, 'Tentacruel', 'Water', 'Poison', 515, 80, 70, 65, 80, 120, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(74, 'Geodude', 'Rock', 'Ground', 300, 40, 80, 100, 30, 30, 20, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(75, 'Graveler', 'Rock', 'Ground', 390, 55, 95, 115, 45, 45, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(76, 'Golem', 'Rock', 'Ground', 495, 80, 120, 130, 55, 65, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(77, 'Ponyta', 'Fire', '', 410, 50, 85, 55, 65, 65, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(78, 'Rapidash', 'Fire', '', 500, 65, 100, 70, 80, 80, 105, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(79, 'Slowpoke', 'Water', 'Psychic', 315, 90, 65, 65, 40, 40, 15, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(80, 'Slowbro', 'Water', 'Psychic', 490, 95, 75, 110, 100, 80, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(80, 'SlowbroMega Slowbro', 'Water', 'Psychic', 590, 95, 75, 180, 130, 80, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(81, 'Magnemite', 'Electric', 'Steel', 325, 25, 35, 70, 95, 55, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(82, 'Magneton', 'Electric', 'Steel', 465, 50, 60, 95, 120, 70, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(83, 'Farfetch', 'Normal', 'Flying', 352, 52, 65, 55, 58, 62, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(84, 'Doduo', 'Normal', 'Flying', 310, 35, 85, 45, 35, 35, 75, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(85, 'Dodrio', 'Normal', 'Flying', 460, 60, 110, 70, 60, 60, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(86, 'Seel', 'Water', '', 325, 65, 45, 55, 45, 70, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(87, 'Dewgong', 'Water', 'Ice', 475, 90, 70, 80, 70, 95, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(88, 'Grimer', 'Poison', '', 325, 80, 80, 50, 40, 50, 25, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(89, 'Muk', 'Poison', '', 500, 105, 105, 75, 65, 100, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(90, 'Shellder', 'Water', '', 305, 30, 65, 100, 45, 25, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(91, 'Cloyster', 'Water', 'Ice', 525, 50, 95, 180, 85, 45, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(92, 'Gastly', 'Ghost', 'Poison', 310, 30, 35, 30, 100, 35, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(93, 'Haunter', 'Ghost', 'Poison', 405, 45, 50, 45, 115, 55, 95, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(94, 'Gengar', 'Ghost', 'Poison', 500, 60, 65, 60, 130, 75, 110, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(94, 'GengarMega Gengar', 'Ghost', 'Poison', 600, 60, 65, 80, 170, 95, 130, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(95, 'Onix', 'Rock', 'Ground', 385, 35, 45, 160, 30, 45, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(96, 'Drowzee', 'Psychic', '', 328, 60, 48, 45, 43, 90, 42, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(97, 'Hypno', 'Psychic', '', 483, 85, 73, 70, 73, 115, 67, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(98, 'Krabby', 'Water', '', 325, 30, 105, 90, 25, 25, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(99, 'Kingler', 'Water', '', 475, 55, 130, 115, 50, 50, 75, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(100, 'Voltorb', 'Electric', '', 330, 40, 30, 50, 55, 55, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(101, 'Electrode', 'Electric', '', 480, 60, 50, 70, 80, 80, 140, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(102, 'Exeggcute', 'Grass', 'Psychic', 325, 60, 40, 80, 60, 45, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(103, 'Exeggutor', 'Grass', 'Psychic', 520, 95, 95, 85, 125, 65, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(104, 'Cubone', 'Ground', '', 320, 50, 50, 95, 40, 50, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(105, 'Marowak', 'Ground', '', 425, 60, 80, 110, 50, 80, 45, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(106, 'Hitmonlee', 'Fighting', '', 455, 50, 120, 53, 35, 110, 87, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(107, 'Hitmonchan', 'Fighting', '', 455, 50, 105, 79, 35, 110, 76, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(108, 'Lickitung', 'Normal', '', 385, 90, 55, 75, 60, 75, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(109, 'Koffing', 'Poison', '', 340, 40, 65, 95, 60, 45, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(110, 'Weezing', 'Poison', '', 490, 65, 90, 120, 85, 70, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(111, 'Rhyhorn', 'Ground', 'Rock', 345, 80, 85, 95, 30, 30, 25, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(112, 'Rhydon', 'Ground', 'Rock', 485, 105, 130, 120, 45, 45, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(113, 'Chansey', 'Normal', '', 450, 250, 5, 5, 35, 105, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(114, 'Tangela', 'Grass', '', 435, 65, 55, 115, 100, 40, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(115, 'Kangaskhan', 'Normal', '', 490, 105, 95, 80, 40, 80, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(115, 'KangaskhanMega Kangaskhan', 'Normal', '', 590, 105, 125, 100, 60, 100, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(116, 'Horsea', 'Water', '', 295, 30, 40, 70, 70, 25, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(117, 'Seadra', 'Water', '', 440, 55, 65, 95, 95, 45, 85, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(118, 'Goldeen', 'Water', '', 320, 45, 67, 60, 35, 50, 63, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(119, 'Seaking', 'Water', '', 450, 80, 92, 65, 65, 80, 68, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(120, 'Staryu', 'Water', '', 340, 30, 45, 55, 70, 55, 85, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(121, 'Starmie', 'Water', 'Psychic', 520, 60, 75, 85, 100, 85, 115, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(122, 'Mr. Mime', 'Psychic', 'Fairy', 460, 40, 45, 65, 100, 120, 90, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(123, 'Scyther', 'Bug', 'Flying', 500, 70, 110, 80, 55, 80, 105, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(124, 'Jynx', 'Ice', 'Psychic', 455, 65, 50, 35, 115, 95, 95, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(125, 'Electabuzz', 'Electric', '', 490, 65, 83, 57, 95, 85, 105, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(126, 'Magmar', 'Fire', '', 495, 65, 95, 57, 100, 85, 93, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(127, 'Pinsir', 'Bug', '', 500, 65, 125, 100, 55, 70, 85, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(127, 'PinsirMega Pinsir', 'Bug', 'Flying', 600, 65, 155, 120, 65, 90, 105, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(128, 'Tauros', 'Normal', '', 490, 75, 100, 95, 40, 70, 110, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(129, 'Magikarp', 'Water', '', 200, 20, 10, 55, 15, 20, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(130, 'Gyarados', 'Water', 'Flying', 540, 95, 125, 79, 60, 100, 81, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(130, 'GyaradosMega Gyarados', 'Water', 'Dark', 640, 95, 155, 109, 70, 130, 81, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(131, 'Lapras', 'Water', 'Ice', 535, 130, 85, 80, 85, 95, 60, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(132, 'Ditto', 'Normal', '', 288, 48, 48, 48, 48, 48, 48, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(133, 'Eevee', 'Normal', '', 325, 55, 55, 50, 45, 65, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(134, 'Vaporeon', 'Water', '', 525, 130, 65, 60, 110, 95, 65, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(135, 'Jolteon', 'Electric', '', 525, 65, 65, 60, 110, 95, 130, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(136, 'Flareon', 'Fire', '', 525, 65, 130, 60, 95, 110, 65, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(137, 'Porygon', 'Normal', '', 395, 65, 60, 70, 85, 75, 40, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(138, 'Omanyte', 'Rock', 'Water', 355, 35, 40, 100, 90, 55, 35, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(139, 'Omastar', 'Rock', 'Water', 495, 70, 60, 125, 115, 70, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(140, 'Kabuto', 'Rock', 'Water', 355, 30, 80, 90, 55, 45, 55, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(141, 'Kabutops', 'Rock', 'Water', 495, 60, 115, 105, 65, 70, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(142, 'Aerodactyl', 'Rock', 'Flying', 515, 80, 105, 65, 60, 75, 130, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(142, 'AerodactylMega Aerodactyl', 'Rock', 'Flying', 615, 80, 135, 85, 70, 95, 150, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(143, 'Snorlax', 'Normal', '', 540, 160, 110, 65, 65, 110, 30, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(144, 'Articuno', 'Ice', 'Flying', 580, 90, 85, 100, 95, 125, 85, 1, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(145, 'Zapdos', 'Electric', 'Flying', 580, 90, 90, 85, 125, 90, 100, 1, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(146, 'Moltres', 'Fire', 'Flying', 580, 90, 100, 90, 125, 85, 90, 1, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(147, 'Dratini', 'Dragon', '', 300, 41, 64, 45, 50, 50, 50, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(148, 'Dragonair', 'Dragon', '', 420, 61, 84, 65, 70, 70, 70, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(149, 'Dragonite', 'Dragon', 'Flying', 600, 91, 134, 95, 100, 100, 80, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(150, 'Mewtwo', 'Psychic', '', 680, 106, 110, 90, 154, 90, 130, 1, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(150, 'MewtwoMega Mewtwo X', 'Psychic', 'Fighting', 780, 106, 190, 100, 154, 100, 130, 1, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(150, 'MewtwoMega Mewtwo Y', 'Psychic', '', 780, 106, 150, 70, 194, 120, 140, 1, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(151, 'Mew', 'Psychic', '', 600, 100, 100, 100, 100, 100, 100, 1, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(152, 'Chikorita', 'Grass', '', 318, 45, 49, 65, 49, 65, 45, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(153, 'Bayleef', 'Grass', '', 405, 60, 62, 80, 63, 80, 60, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(154, 'Meganium', 'Grass', '', 525, 80, 82, 100, 83, 100, 80, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(155, 'Cyndaquil', 'Fire', '', 309, 39, 52, 43, 60, 50, 65, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(156, 'Quilava', 'Fire', '', 405, 58, 64, 58, 80, 65, 80, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(157, 'Typhlosion', 'Fire', '', 534, 78, 84, 78, 109, 85, 100, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(158, 'Totodile', 'Water', '', 314, 50, 65, 64, 44, 48, 43, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(159, 'Croconaw', 'Water', '', 405, 65, 80, 80, 59, 63, 58, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(160, 'Feraligatr', 'Water', '', 530, 85, 105, 100, 79, 83, 78, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(161, 'Sentret', 'Normal', '', 215, 35, 46, 34, 35, 45, 20, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(162, 'Furret', 'Normal', '', 415, 85, 76, 64, 45, 55, 90, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(163, 'Hoothoot', 'Normal', 'Flying', 262, 60, 30, 30, 36, 56, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(164, 'Noctowl', 'Normal', 'Flying', 442, 100, 50, 50, 76, 96, 70, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(165, 'Ledyba', 'Bug', 'Flying', 265, 40, 20, 30, 40, 80, 55, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(166, 'Ledian', 'Bug', 'Flying', 390, 55, 35, 50, 55, 110, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(167, 'Spinarak', 'Bug', 'Poison', 250, 40, 60, 40, 40, 40, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(168, 'Ariados', 'Bug', 'Poison', 390, 70, 90, 70, 60, 60, 40, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(169, 'Crobat', 'Poison', 'Flying', 535, 85, 90, 80, 70, 80, 130, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(170, 'Chinchou', 'Water', 'Electric', 330, 75, 38, 38, 56, 56, 67, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(171, 'Lanturn', 'Water', 'Electric', 460, 125, 58, 58, 76, 76, 67, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(172, 'Pichu', 'Electric', '', 205, 20, 40, 15, 35, 35, 60, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(173, 'Cleffa', 'Fairy', '', 218, 50, 25, 28, 45, 55, 15, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(174, 'Igglybuff', 'Normal', 'Fairy', 210, 90, 30, 15, 40, 20, 15, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(175, 'Togepi', 'Fairy', '', 245, 35, 20, 65, 40, 65, 20, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(176, 'Togetic', 'Fairy', 'Flying', 405, 55, 40, 85, 80, 105, 40, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(177, 'Natu', 'Psychic', 'Flying', 320, 40, 50, 45, 70, 45, 70, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(178, 'Xatu', 'Psychic', 'Flying', 470, 65, 75, 70, 95, 70, 95, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(179, 'Mareep', 'Electric', '', 280, 55, 40, 40, 65, 45, 35, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(180, 'Flaaffy', 'Electric', '', 365, 70, 55, 55, 80, 60, 45, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(181, 'Ampharos', 'Electric', '', 510, 90, 75, 85, 115, 90, 55, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(181, 'AmpharosMega Ampharos', 'Electric', 'Dragon', 610, 90, 95, 105, 165, 110, 45, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(182, 'Bellossom', 'Grass', '', 490, 75, 80, 95, 90, 100, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(183, 'Marill', 'Water', 'Fairy', 250, 70, 20, 50, 20, 50, 40, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(184, 'Azumarill', 'Water', 'Fairy', 420, 100, 50, 80, 60, 80, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(185, 'Sudowoodo', 'Rock', '', 410, 70, 100, 115, 30, 65, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(186, 'Politoed', 'Water', '', 500, 90, 75, 75, 90, 100, 70, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(187, 'Hoppip', 'Grass', 'Flying', 250, 35, 35, 40, 35, 55, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(188, 'Skiploom', 'Grass', 'Flying', 340, 55, 45, 50, 45, 65, 80, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(189, 'Jumpluff', 'Grass', 'Flying', 460, 75, 55, 70, 55, 95, 110, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(190, 'Aipom', 'Normal', '', 360, 55, 70, 55, 40, 55, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(191, 'Sunkern', 'Grass', '', 180, 30, 30, 30, 30, 30, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(192, 'Sunflora', 'Grass', '', 425, 75, 75, 55, 105, 85, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(193, 'Yanma', 'Bug', 'Flying', 390, 65, 65, 45, 75, 45, 95, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(194, 'Wooper', 'Water', 'Ground', 210, 55, 45, 45, 25, 25, 15, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(195, 'Quagsire', 'Water', 'Ground', 430, 95, 85, 85, 65, 65, 35, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(196, 'Espeon', 'Psychic', '', 525, 65, 65, 60, 130, 95, 110, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(197, 'Umbreon', 'Dark', '', 525, 95, 65, 110, 60, 130, 65, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(198, 'Murkrow', 'Dark', 'Flying', 405, 60, 85, 42, 85, 42, 91, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(199, 'Slowking', 'Water', 'Psychic', 490, 95, 75, 80, 100, 110, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(200, 'Misdreavus', 'Ghost', '', 435, 60, 60, 60, 85, 85, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(201, 'Unown', 'Psychic', '', 336, 48, 72, 48, 72, 48, 48, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(202, 'Wobbuffet', 'Psychic', '', 405, 190, 33, 58, 33, 58, 33, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(203, 'Girafarig', 'Normal', 'Psychic', 455, 70, 80, 65, 90, 65, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(204, 'Pineco', 'Bug', '', 290, 50, 65, 90, 35, 35, 15, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(205, 'Forretress', 'Bug', 'Steel', 465, 75, 90, 140, 60, 60, 40, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(206, 'Dunsparce', 'Normal', '', 415, 100, 70, 70, 65, 65, 45, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(207, 'Gligar', 'Ground', 'Flying', 430, 65, 75, 105, 35, 65, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(208, 'Steelix', 'Steel', 'Ground', 510, 75, 85, 200, 55, 65, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(208, 'SteelixMega Steelix', 'Steel', 'Ground', 610, 75, 125, 230, 55, 95, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(209, 'Snubbull', 'Fairy', '', 300, 60, 80, 50, 40, 40, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(210, 'Granbull', 'Fairy', '', 450, 90, 120, 75, 60, 60, 45, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(211, 'Qwilfish', 'Water', 'Poison', 430, 65, 95, 75, 55, 55, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(212, 'Scizor', 'Bug', 'Steel', 500, 70, 130, 100, 55, 80, 65, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(212, 'ScizorMega Scizor', 'Bug', 'Steel', 600, 70, 150, 140, 65, 100, 75, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(213, 'Shuckle', 'Bug', 'Rock', 505, 20, 10, 230, 10, 230, 5, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(214, 'Heracross', 'Bug', 'Fighting', 500, 80, 125, 75, 40, 95, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(214, 'HeracrossMega Heracross', 'Bug', 'Fighting', 600, 80, 185, 115, 40, 105, 75, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(215, 'Sneasel', 'Dark', 'Ice', 430, 55, 95, 55, 35, 75, 115, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(216, 'Teddiursa', 'Normal', '', 330, 60, 80, 50, 50, 50, 40, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(217, 'Ursaring', 'Normal', '', 500, 90, 130, 75, 75, 75, 55, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(218, 'Slugma', 'Fire', '', 250, 40, 40, 40, 70, 40, 20, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(219, 'Magcargo', 'Fire', 'Rock', 410, 50, 50, 120, 80, 80, 30, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(220, 'Swinub', 'Ice', 'Ground', 250, 50, 50, 40, 30, 30, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(221, 'Piloswine', 'Ice', 'Ground', 450, 100, 100, 80, 60, 60, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(222, 'Corsola', 'Water', 'Rock', 380, 55, 55, 85, 65, 85, 35, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(223, 'Remoraid', 'Water', '', 300, 35, 65, 35, 65, 35, 65, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(224, 'Octillery', 'Water', '', 480, 75, 105, 75, 105, 75, 45, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(225, 'Delibird', 'Ice', 'Flying', 330, 45, 55, 45, 65, 45, 75, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(226, 'Mantine', 'Water', 'Flying', 465, 65, 40, 70, 80, 140, 70, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(227, 'Skarmory', 'Steel', 'Flying', 465, 65, 80, 140, 40, 70, 70, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(228, 'Houndour', 'Dark', 'Fire', 330, 45, 60, 30, 80, 50, 65, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(229, 'Houndoom', 'Dark', 'Fire', 500, 75, 90, 50, 110, 80, 95, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(229, 'HoundoomMega Houndoom', 'Dark', 'Fire', 600, 75, 90, 90, 140, 90, 115, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(230, 'Kingdra', 'Water', 'Dragon', 540, 75, 95, 95, 95, 95, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(231, 'Phanpy', 'Ground', '', 330, 90, 60, 60, 40, 40, 40, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(232, 'Donphan', 'Ground', '', 500, 90, 120, 120, 60, 60, 50, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(233, 'Porygon2', 'Normal', '', 515, 85, 80, 90, 105, 95, 60, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(234, 'Stantler', 'Normal', '', 465, 73, 95, 62, 85, 65, 85, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(235, 'Smeargle', 'Normal', '', 250, 55, 20, 35, 20, 45, 75, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(236, 'Tyrogue', 'Fighting', '', 210, 35, 35, 35, 35, 35, 35, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(237, 'Hitmontop', 'Fighting', '', 455, 50, 95, 95, 35, 110, 70, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(238, 'Smoochum', 'Ice', 'Psychic', 305, 45, 30, 15, 85, 65, 65, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(239, 'Elekid', 'Electric', '', 360, 45, 63, 37, 65, 55, 95, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(240, 'Magby', 'Fire', '', 365, 45, 75, 37, 70, 55, 83, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(241, 'Miltank', 'Normal', '', 490, 95, 80, 105, 40, 70, 100, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(242, 'Blissey', 'Normal', '', 540, 255, 10, 10, 75, 135, 55, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(243, 'Raikou', 'Electric', '', 580, 90, 85, 75, 115, 100, 115, 2, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(244, 'Entei', 'Fire', '', 580, 115, 115, 85, 90, 75, 100, 2, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(245, 'Suicune', 'Water', '', 580, 100, 75, 115, 90, 115, 85, 2, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(246, 'Larvitar', 'Rock', 'Ground', 300, 50, 64, 50, 45, 50, 41, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(247, 'Pupitar', 'Rock', 'Ground', 410, 70, 84, 70, 65, 70, 51, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(248, 'Tyranitar', 'Rock', 'Dark', 600, 100, 134, 110, 95, 100, 61, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(248, 'TyranitarMega Tyranitar', 'Rock', 'Dark', 700, 100, 164, 150, 95, 120, 71, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(249, 'Lugia', 'Psychic', 'Flying', 680, 106, 90, 130, 90, 154, 110, 2, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(250, 'Ho-oh', 'Fire', 'Flying', 680, 106, 130, 90, 110, 154, 90, 2, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(251, 'Celebi', 'Psychic', 'Grass', 600, 100, 100, 100, 100, 100, 100, 2, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(252, 'Treecko', 'Grass', '', 310, 40, 45, 35, 65, 55, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(253, 'Grovyle', 'Grass', '', 405, 50, 65, 45, 85, 65, 95, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(254, 'Sceptile', 'Grass', '', 530, 70, 85, 65, 105, 85, 120, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(254, 'SceptileMega Sceptile', 'Grass', 'Dragon', 630, 70, 110, 75, 145, 85, 145, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(255, 'Torchic', 'Fire', '', 310, 45, 60, 40, 70, 50, 45, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(256, 'Combusken', 'Fire', 'Fighting', 405, 60, 85, 60, 85, 60, 55, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(257, 'Blaziken', 'Fire', 'Fighting', 530, 80, 120, 70, 110, 70, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(257, 'BlazikenMega Blaziken', 'Fire', 'Fighting', 630, 80, 160, 80, 130, 80, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(258, 'Mudkip', 'Water', '', 310, 50, 70, 50, 50, 50, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(259, 'Marshtomp', 'Water', 'Ground', 405, 70, 85, 70, 60, 70, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(260, 'Swampert', 'Water', 'Ground', 535, 100, 110, 90, 85, 90, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(260, 'SwampertMega Swampert', 'Water', 'Ground', 635, 100, 150, 110, 95, 110, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(261, 'Poochyena', 'Dark', '', 220, 35, 55, 35, 30, 30, 35, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(262, 'Mightyena', 'Dark', '', 420, 70, 90, 70, 60, 60, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(263, 'Zigzagoon', 'Normal', '', 240, 38, 30, 41, 30, 41, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(264, 'Linoone', 'Normal', '', 420, 78, 70, 61, 50, 61, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(265, 'Wurmple', 'Bug', '', 195, 45, 45, 35, 20, 30, 20, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(266, 'Silcoon', 'Bug', '', 205, 50, 35, 55, 25, 25, 15, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(267, 'Beautifly', 'Bug', 'Flying', 395, 60, 70, 50, 100, 50, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(268, 'Cascoon', 'Bug', '', 205, 50, 35, 55, 25, 25, 15, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(269, 'Dustox', 'Bug', 'Poison', 385, 60, 50, 70, 50, 90, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(270, 'Lotad', 'Water', 'Grass', 220, 40, 30, 30, 40, 50, 30, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(271, 'Lombre', 'Water', 'Grass', 340, 60, 50, 50, 60, 70, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(272, 'Ludicolo', 'Water', 'Grass', 480, 80, 70, 70, 90, 100, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(273, 'Seedot', 'Grass', '', 220, 40, 40, 50, 30, 30, 30, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(274, 'Nuzleaf', 'Grass', 'Dark', 340, 70, 70, 40, 60, 40, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(275, 'Shiftry', 'Grass', 'Dark', 480, 90, 100, 60, 90, 60, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(276, 'Taillow', 'Normal', 'Flying', 270, 40, 55, 30, 30, 30, 85, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(277, 'Swellow', 'Normal', 'Flying', 430, 60, 85, 60, 50, 50, 125, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(278, 'Wingull', 'Water', 'Flying', 270, 40, 30, 30, 55, 30, 85, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(279, 'Pelipper', 'Water', 'Flying', 430, 60, 50, 100, 85, 70, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(280, 'Ralts', 'Psychic', 'Fairy', 198, 28, 25, 25, 45, 35, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(281, 'Kirlia', 'Psychic', 'Fairy', 278, 38, 35, 35, 65, 55, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(282, 'Gardevoir', 'Psychic', 'Fairy', 518, 68, 65, 65, 125, 115, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(282, 'GardevoirMega Gardevoir', 'Psychic', 'Fairy', 618, 68, 85, 65, 165, 135, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(283, 'Surskit', 'Bug', 'Water', 269, 40, 30, 32, 50, 52, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(284, 'Masquerain', 'Bug', 'Flying', 414, 70, 60, 62, 80, 82, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(285, 'Shroomish', 'Grass', '', 295, 60, 40, 60, 40, 60, 35, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(286, 'Breloom', 'Grass', 'Fighting', 460, 60, 130, 80, 60, 60, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(287, 'Slakoth', 'Normal', '', 280, 60, 60, 60, 35, 35, 30, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(288, 'Vigoroth', 'Normal', '', 440, 80, 80, 80, 55, 55, 90, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(289, 'Slaking', 'Normal', '', 670, 150, 160, 100, 95, 65, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(290, 'Nincada', 'Bug', 'Ground', 266, 31, 45, 90, 30, 30, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(291, 'Ninjask', 'Bug', 'Flying', 456, 61, 90, 45, 50, 50, 160, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(292, 'Shedinja', 'Bug', 'Ghost', 236, 1, 90, 45, 30, 30, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(293, 'Whismur', 'Normal', '', 240, 64, 51, 23, 51, 23, 28, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(294, 'Loudred', 'Normal', '', 360, 84, 71, 43, 71, 43, 48, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(295, 'Exploud', 'Normal', '', 490, 104, 91, 63, 91, 73, 68, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(296, 'Makuhita', 'Fighting', '', 237, 72, 60, 30, 20, 30, 25, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(297, 'Hariyama', 'Fighting', '', 474, 144, 120, 60, 40, 60, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(298, 'Azurill', 'Normal', 'Fairy', 190, 50, 20, 40, 20, 40, 20, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(299, 'Nosepass', 'Rock', '', 375, 30, 45, 135, 45, 90, 30, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(300, 'Skitty', 'Normal', '', 260, 50, 45, 45, 35, 35, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(301, 'Delcatty', 'Normal', '', 380, 70, 65, 65, 55, 55, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(302, 'Sableye', 'Dark', 'Ghost', 380, 50, 75, 75, 65, 65, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(302, 'SableyeMega Sableye', 'Dark', 'Ghost', 480, 50, 85, 125, 85, 115, 20, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(303, 'Mawile', 'Steel', 'Fairy', 380, 50, 85, 85, 55, 55, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(303, 'MawileMega Mawile', 'Steel', 'Fairy', 480, 50, 105, 125, 55, 95, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(304, 'Aron', 'Steel', 'Rock', 330, 50, 70, 100, 40, 40, 30, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(305, 'Lairon', 'Steel', 'Rock', 430, 60, 90, 140, 50, 50, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(306, 'Aggron', 'Steel', 'Rock', 530, 70, 110, 180, 60, 60, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(306, 'AggronMega Aggron', 'Steel', '', 630, 70, 140, 230, 60, 80, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(307, 'Meditite', 'Fighting', 'Psychic', 280, 30, 40, 55, 40, 55, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(308, 'Medicham', 'Fighting', 'Psychic', 410, 60, 60, 75, 60, 75, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(308, 'MedichamMega Medicham', 'Fighting', 'Psychic', 510, 60, 100, 85, 80, 85, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(309, 'Electrike', 'Electric', '', 295, 40, 45, 40, 65, 40, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(310, 'Manectric', 'Electric', '', 475, 70, 75, 60, 105, 60, 105, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(310, 'ManectricMega Manectric', 'Electric', '', 575, 70, 75, 80, 135, 80, 135, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(311, 'Plusle', 'Electric', '', 405, 60, 50, 40, 85, 75, 95, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(312, 'Minun', 'Electric', '', 405, 60, 40, 50, 75, 85, 95, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(313, 'Volbeat', 'Bug', '', 400, 65, 73, 55, 47, 75, 85, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(314, 'Illumise', 'Bug', '', 400, 65, 47, 55, 73, 75, 85, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(315, 'Roselia', 'Grass', 'Poison', 400, 50, 60, 45, 100, 80, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(316, 'Gulpin', 'Poison', '', 302, 70, 43, 53, 43, 53, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(317, 'Swalot', 'Poison', '', 467, 100, 73, 83, 73, 83, 55, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(318, 'Carvanha', 'Water', 'Dark', 305, 45, 90, 20, 65, 20, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(319, 'Sharpedo', 'Water', 'Dark', 460, 70, 120, 40, 95, 40, 95, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(319, 'SharpedoMega Sharpedo', 'Water', 'Dark', 560, 70, 140, 70, 110, 65, 105, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(320, 'Wailmer', 'Water', '', 400, 130, 70, 35, 70, 35, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(321, 'Wailord', 'Water', '', 500, 170, 90, 45, 90, 45, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(322, 'Numel', 'Fire', 'Ground', 305, 60, 60, 40, 65, 45, 35, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(323, 'Camerupt', 'Fire', 'Ground', 460, 70, 100, 70, 105, 75, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(323, 'CameruptMega Camerupt', 'Fire', 'Ground', 560, 70, 120, 100, 145, 105, 20, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(324, 'Torkoal', 'Fire', '', 470, 70, 85, 140, 85, 70, 20, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(325, 'Spoink', 'Psychic', '', 330, 60, 25, 35, 70, 80, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(326, 'Grumpig', 'Psychic', '', 470, 80, 45, 65, 90, 110, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(327, 'Spinda', 'Normal', '', 360, 60, 60, 60, 60, 60, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(328, 'Trapinch', 'Ground', '', 290, 45, 100, 45, 45, 45, 10, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(329, 'Vibrava', 'Ground', 'Dragon', 340, 50, 70, 50, 50, 50, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(330, 'Flygon', 'Ground', 'Dragon', 520, 80, 100, 80, 80, 80, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(331, 'Cacnea', 'Grass', '', 335, 50, 85, 40, 85, 40, 35, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(332, 'Cacturne', 'Grass', 'Dark', 475, 70, 115, 60, 115, 60, 55, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(333, 'Swablu', 'Normal', 'Flying', 310, 45, 40, 60, 40, 75, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(334, 'Altaria', 'Dragon', 'Flying', 490, 75, 70, 90, 70, 105, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(334, 'AltariaMega Altaria', 'Dragon', 'Fairy', 590, 75, 110, 110, 110, 105, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(335, 'Zangoose', 'Normal', '', 458, 73, 115, 60, 60, 60, 90, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(336, 'Seviper', 'Poison', '', 458, 73, 100, 60, 100, 60, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(337, 'Lunatone', 'Rock', 'Psychic', 440, 70, 55, 65, 95, 85, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(338, 'Solrock', 'Rock', 'Psychic', 440, 70, 95, 85, 55, 65, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(339, 'Barboach', 'Water', 'Ground', 288, 50, 48, 43, 46, 41, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(340, 'Whiscash', 'Water', 'Ground', 468, 110, 78, 73, 76, 71, 60, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(341, 'Corphish', 'Water', '', 308, 43, 80, 65, 50, 35, 35, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(342, 'Crawdaunt', 'Water', 'Dark', 468, 63, 120, 85, 90, 55, 55, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(343, 'Baltoy', 'Ground', 'Psychic', 300, 40, 40, 55, 40, 70, 55, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(344, 'Claydol', 'Ground', 'Psychic', 500, 60, 70, 105, 70, 120, 75, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(345, 'Lileep', 'Rock', 'Grass', 355, 66, 41, 77, 61, 87, 23, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(346, 'Cradily', 'Rock', 'Grass', 495, 86, 81, 97, 81, 107, 43, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(347, 'Anorith', 'Rock', 'Bug', 355, 45, 95, 50, 40, 50, 75, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(348, 'Armaldo', 'Rock', 'Bug', 495, 75, 125, 100, 70, 80, 45, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(349, 'Feebas', 'Water', '', 200, 20, 15, 20, 10, 55, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(350, 'Milotic', 'Water', '', 540, 95, 60, 79, 100, 125, 81, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(351, 'Castform', 'Normal', '', 420, 70, 70, 70, 70, 70, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(352, 'Kecleon', 'Normal', '', 440, 60, 90, 70, 60, 120, 40, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(353, 'Shuppet', 'Ghost', '', 295, 44, 75, 35, 63, 33, 45, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(354, 'Banette', 'Ghost', '', 455, 64, 115, 65, 83, 63, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(354, 'BanetteMega Banette', 'Ghost', '', 555, 64, 165, 75, 93, 83, 75, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(355, 'Duskull', 'Ghost', '', 295, 20, 40, 90, 30, 90, 25, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(356, 'Dusclops', 'Ghost', '', 455, 40, 70, 130, 60, 130, 25, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(357, 'Tropius', 'Grass', 'Flying', 460, 99, 68, 83, 72, 87, 51, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(358, 'Chimecho', 'Psychic', '', 425, 65, 50, 70, 95, 80, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(359, 'Absol', 'Dark', '', 465, 65, 130, 60, 75, 60, 75, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(359, 'AbsolMega Absol', 'Dark', '', 565, 65, 150, 60, 115, 60, 115, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(360, 'Wynaut', 'Psychic', '', 260, 95, 23, 48, 23, 48, 23, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(361, 'Snorunt', 'Ice', '', 300, 50, 50, 50, 50, 50, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(362, 'Glalie', 'Ice', '', 480, 80, 80, 80, 80, 80, 80, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(362, 'GlalieMega Glalie', 'Ice', '', 580, 80, 120, 80, 120, 80, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(363, 'Spheal', 'Ice', 'Water', 290, 70, 40, 50, 55, 50, 25, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(364, 'Sealeo', 'Ice', 'Water', 410, 90, 60, 70, 75, 70, 45, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(365, 'Walrein', 'Ice', 'Water', 530, 110, 80, 90, 95, 90, 65, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(366, 'Clamperl', 'Water', '', 345, 35, 64, 85, 74, 55, 32, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(367, 'Huntail', 'Water', '', 485, 55, 104, 105, 94, 75, 52, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(368, 'Gorebyss', 'Water', '', 485, 55, 84, 105, 114, 75, 52, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(369, 'Relicanth', 'Water', 'Rock', 485, 100, 90, 130, 45, 65, 55, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(370, 'Luvdisc', 'Water', '', 330, 43, 30, 55, 40, 65, 97, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(371, 'Bagon', 'Dragon', '', 300, 45, 75, 60, 40, 30, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(372, 'Shelgon', 'Dragon', '', 420, 65, 95, 100, 60, 50, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(373, 'Salamence', 'Dragon', 'Flying', 600, 95, 135, 80, 110, 80, 100, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(373, 'SalamenceMega Salamence', 'Dragon', 'Flying', 700, 95, 145, 130, 120, 90, 120, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(374, 'Beldum', 'Steel', 'Psychic', 300, 40, 55, 80, 35, 60, 30, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(375, 'Metang', 'Steel', 'Psychic', 420, 60, 75, 100, 55, 80, 50, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(376, 'Metagross', 'Steel', 'Psychic', 600, 80, 135, 130, 95, 90, 70, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(376, 'MetagrossMega Metagross', 'Steel', 'Psychic', 700, 80, 145, 150, 105, 110, 110, 3, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(377, 'Regirock', 'Rock', '', 580, 80, 100, 200, 50, 100, 50, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(378, 'Regice', 'Ice', '', 580, 80, 50, 100, 100, 200, 50, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(379, 'Registeel', 'Steel', '', 580, 80, 75, 150, 75, 150, 50, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(380, 'Latias', 'Dragon', 'Psychic', 600, 80, 80, 90, 110, 130, 110, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(380, 'LatiasMega Latias', 'Dragon', 'Psychic', 700, 80, 100, 120, 140, 150, 110, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(381, 'Latios', 'Dragon', 'Psychic', 600, 80, 90, 80, 130, 110, 110, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(381, 'LatiosMega Latios', 'Dragon', 'Psychic', 700, 80, 130, 100, 160, 120, 110, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(382, 'Kyogre', 'Water', '', 670, 100, 100, 90, 150, 140, 90, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(382, 'KyogrePrimal Kyogre', 'Water', '', 770, 100, 150, 90, 180, 160, 90, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(383, 'Groudon', 'Ground', '', 670, 100, 150, 140, 100, 90, 90, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(383, 'GroudonPrimal Groudon', 'Ground', 'Fire', 770, 100, 180, 160, 150, 90, 90, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(384, 'Rayquaza', 'Dragon', 'Flying', 680, 105, 150, 90, 150, 90, 95, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(384, 'RayquazaMega Rayquaza', 'Dragon', 'Flying', 780, 105, 180, 100, 180, 100, 115, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(385, 'Jirachi', 'Steel', 'Psychic', 600, 100, 100, 100, 100, 100, 100, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(386, 'DeoxysNormal Forme', 'Psychic', '', 600, 50, 150, 50, 150, 50, 150, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(386, 'DeoxysAttack Forme', 'Psychic', '', 600, 50, 180, 20, 180, 20, 150, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(386, 'DeoxysDefense Forme', 'Psychic', '', 600, 50, 70, 160, 70, 160, 90, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(386, 'DeoxysSpeed Forme', 'Psychic', '', 600, 50, 95, 90, 95, 90, 180, 3, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(387, 'Turtwig', 'Grass', '', 318, 55, 68, 64, 45, 55, 31, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(388, 'Grotle', 'Grass', '', 405, 75, 89, 85, 55, 65, 36, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(389, 'Torterra', 'Grass', 'Ground', 525, 95, 109, 105, 75, 85, 56, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(390, 'Chimchar', 'Fire', '', 309, 44, 58, 44, 58, 44, 61, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(391, 'Monferno', 'Fire', 'Fighting', 405, 64, 78, 52, 78, 52, 81, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(392, 'Infernape', 'Fire', 'Fighting', 534, 76, 104, 71, 104, 71, 108, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(393, 'Piplup', 'Water', '', 314, 53, 51, 53, 61, 56, 40, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(394, 'Prinplup', 'Water', '', 405, 64, 66, 68, 81, 76, 50, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(395, 'Empoleon', 'Water', 'Steel', 530, 84, 86, 88, 111, 101, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(396, 'Starly', 'Normal', 'Flying', 245, 40, 55, 30, 30, 30, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(397, 'Staravia', 'Normal', 'Flying', 340, 55, 75, 50, 40, 40, 80, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(398, 'Staraptor', 'Normal', 'Flying', 485, 85, 120, 70, 50, 60, 100, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(399, 'Bidoof', 'Normal', '', 250, 59, 45, 40, 35, 40, 31, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(400, 'Bibarel', 'Normal', 'Water', 410, 79, 85, 60, 55, 60, 71, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(401, 'Kricketot', 'Bug', '', 194, 37, 25, 41, 25, 41, 25, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(402, 'Kricketune', 'Bug', '', 384, 77, 85, 51, 55, 51, 65, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(403, 'Shinx', 'Electric', '', 263, 45, 65, 34, 40, 34, 45, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(404, 'Luxio', 'Electric', '', 363, 60, 85, 49, 60, 49, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(405, 'Luxray', 'Electric', '', 523, 80, 120, 79, 95, 79, 70, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(406, 'Budew', 'Grass', 'Poison', 280, 40, 30, 35, 50, 70, 55, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(407, 'Roserade', 'Grass', 'Poison', 515, 60, 70, 65, 125, 105, 90, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(408, 'Cranidos', 'Rock', '', 350, 67, 125, 40, 30, 30, 58, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(409, 'Rampardos', 'Rock', '', 495, 97, 165, 60, 65, 50, 58, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(410, 'Shieldon', 'Rock', 'Steel', 350, 30, 42, 118, 42, 88, 30, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(411, 'Bastiodon', 'Rock', 'Steel', 495, 60, 52, 168, 47, 138, 30, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(412, 'Burmy', 'Bug', '', 224, 40, 29, 45, 29, 45, 36, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(413, 'WormadamPlant Cloak', 'Bug', 'Grass', 424, 60, 59, 85, 79, 105, 36, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(413, 'WormadamSandy Cloak', 'Bug', 'Ground', 424, 60, 79, 105, 59, 85, 36, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(413, 'WormadamTrash Cloak', 'Bug', 'Steel', 424, 60, 69, 95, 69, 95, 36, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(414, 'Mothim', 'Bug', 'Flying', 424, 70, 94, 50, 94, 50, 66, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(415, 'Combee', 'Bug', 'Flying', 244, 30, 30, 42, 30, 42, 70, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(416, 'Vespiquen', 'Bug', 'Flying', 474, 70, 80, 102, 80, 102, 40, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(417, 'Pachirisu', 'Electric', '', 405, 60, 45, 70, 45, 90, 95, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(418, 'Buizel', 'Water', '', 330, 55, 65, 35, 60, 30, 85, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(419, 'Floatzel', 'Water', '', 495, 85, 105, 55, 85, 50, 115, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(420, 'Cherubi', 'Grass', '', 275, 45, 35, 45, 62, 53, 35, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(421, 'Cherrim', 'Grass', '', 450, 70, 60, 70, 87, 78, 85, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(422, 'Shellos', 'Water', '', 325, 76, 48, 48, 57, 62, 34, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(423, 'Gastrodon', 'Water', 'Ground', 475, 111, 83, 68, 92, 82, 39, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(424, 'Ambipom', 'Normal', '', 482, 75, 100, 66, 60, 66, 115, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(425, 'Drifloon', 'Ghost', 'Flying', 348, 90, 50, 34, 60, 44, 70, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(426, 'Drifblim', 'Ghost', 'Flying', 498, 150, 80, 44, 90, 54, 80, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(427, 'Buneary', 'Normal', '', 350, 55, 66, 44, 44, 56, 85, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(428, 'Lopunny', 'Normal', '', 480, 65, 76, 84, 54, 96, 105, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(428, 'LopunnyMega Lopunny', 'Normal', 'Fighting', 580, 65, 136, 94, 54, 96, 135, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(429, 'Mismagius', 'Ghost', '', 495, 60, 60, 60, 105, 105, 105, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(430, 'Honchkrow', 'Dark', 'Flying', 505, 100, 125, 52, 105, 52, 71, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(431, 'Glameow', 'Normal', '', 310, 49, 55, 42, 42, 37, 85, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(432, 'Purugly', 'Normal', '', 452, 71, 82, 64, 64, 59, 112, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(433, 'Chingling', 'Psychic', '', 285, 45, 30, 50, 65, 50, 45, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(434, 'Stunky', 'Poison', 'Dark', 329, 63, 63, 47, 41, 41, 74, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(435, 'Skuntank', 'Poison', 'Dark', 479, 103, 93, 67, 71, 61, 84, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(436, 'Bronzor', 'Steel', 'Psychic', 300, 57, 24, 86, 24, 86, 23, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(437, 'Bronzong', 'Steel', 'Psychic', 500, 67, 89, 116, 79, 116, 33, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(438, 'Bonsly', 'Rock', '', 290, 50, 80, 95, 10, 45, 10, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(439, 'Mime Jr.', 'Psychic', 'Fairy', 310, 20, 25, 45, 70, 90, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(440, 'Happiny', 'Normal', '', 220, 100, 5, 5, 15, 65, 30, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(441, 'Chatot', 'Normal', 'Flying', 411, 76, 65, 45, 92, 42, 91, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(442, 'Spiritomb', 'Ghost', 'Dark', 485, 50, 92, 108, 92, 108, 35, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(443, 'Gible', 'Dragon', 'Ground', 300, 58, 70, 45, 40, 45, 42, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(444, 'Gabite', 'Dragon', 'Ground', 410, 68, 90, 65, 50, 55, 82, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(445, 'Garchomp', 'Dragon', 'Ground', 600, 108, 130, 95, 80, 85, 102, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(445, 'GarchompMega Garchomp', 'Dragon', 'Ground', 700, 108, 170, 115, 120, 95, 92, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(446, 'Munchlax', 'Normal', '', 390, 135, 85, 40, 40, 85, 5, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(447, 'Riolu', 'Fighting', '', 285, 40, 70, 40, 35, 40, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(448, 'Lucario', 'Fighting', 'Steel', 525, 70, 110, 70, 115, 70, 90, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(448, 'LucarioMega Lucario', 'Fighting', 'Steel', 625, 70, 145, 88, 140, 70, 112, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(449, 'Hippopotas', 'Ground', '', 330, 68, 72, 78, 38, 42, 32, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(450, 'Hippowdon', 'Ground', '', 525, 108, 112, 118, 68, 72, 47, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(451, 'Skorupi', 'Poison', 'Bug', 330, 40, 50, 90, 30, 55, 65, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(452, 'Drapion', 'Poison', 'Dark', 500, 70, 90, 110, 60, 75, 95, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(453, 'Croagunk', 'Poison', 'Fighting', 300, 48, 61, 40, 61, 40, 50, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(454, 'Toxicroak', 'Poison', 'Fighting', 490, 83, 106, 65, 86, 65, 85, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(455, 'Carnivine', 'Grass', '', 454, 74, 100, 72, 90, 72, 46, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(456, 'Finneon', 'Water', '', 330, 49, 49, 56, 49, 61, 66, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(457, 'Lumineon', 'Water', '', 460, 69, 69, 76, 69, 86, 91, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(458, 'Mantyke', 'Water', 'Flying', 345, 45, 20, 50, 60, 120, 50, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(459, 'Snover', 'Grass', 'Ice', 334, 60, 62, 50, 62, 60, 40, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(460, 'Abomasnow', 'Grass', 'Ice', 494, 90, 92, 75, 92, 85, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(460, 'AbomasnowMega Abomasnow', 'Grass', 'Ice', 594, 90, 132, 105, 132, 105, 30, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(461, 'Weavile', 'Dark', 'Ice', 510, 70, 120, 65, 45, 85, 125, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(462, 'Magnezone', 'Electric', 'Steel', 535, 70, 70, 115, 130, 90, 60, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(463, 'Lickilicky', 'Normal', '', 515, 110, 85, 95, 80, 95, 50, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(464, 'Rhyperior', 'Ground', 'Rock', 535, 115, 140, 130, 55, 55, 40, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(465, 'Tangrowth', 'Grass', '', 535, 100, 100, 125, 110, 50, 50, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(466, 'Electivire', 'Electric', '', 540, 75, 123, 67, 95, 85, 95, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(467, 'Magmortar', 'Fire', '', 540, 75, 95, 67, 125, 95, 83, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(468, 'Togekiss', 'Fairy', 'Flying', 545, 85, 50, 95, 120, 115, 80, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(469, 'Yanmega', 'Bug', 'Flying', 515, 86, 76, 86, 116, 56, 95, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(470, 'Leafeon', 'Grass', '', 525, 65, 110, 130, 60, 65, 95, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(471, 'Glaceon', 'Ice', '', 525, 65, 60, 110, 130, 95, 65, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(472, 'Gliscor', 'Ground', 'Flying', 510, 75, 95, 125, 45, 75, 95, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(473, 'Mamoswine', 'Ice', 'Ground', 530, 110, 130, 80, 70, 60, 80, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(474, 'Porygon-Z', 'Normal', '', 535, 85, 80, 70, 135, 75, 90, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(475, 'Gallade', 'Psychic', 'Fighting', 518, 68, 125, 65, 65, 115, 80, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(475, 'GalladeMega Gallade', 'Psychic', 'Fighting', 618, 68, 165, 95, 65, 115, 110, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(476, 'Probopass', 'Rock', 'Steel', 525, 60, 55, 145, 75, 150, 40, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(477, 'Dusknoir', 'Ghost', '', 525, 45, 100, 135, 65, 135, 45, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(478, 'Froslass', 'Ice', 'Ghost', 480, 70, 80, 70, 80, 70, 110, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(479, 'Rotom', 'Electric', 'Ghost', 440, 50, 50, 77, 95, 77, 91, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(479, 'RotomHeat Rotom', 'Electric', 'Fire', 520, 50, 65, 107, 105, 107, 86, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(479, 'RotomWash Rotom', 'Electric', 'Water', 520, 50, 65, 107, 105, 107, 86, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(479, 'RotomFrost Rotom', 'Electric', 'Ice', 520, 50, 65, 107, 105, 107, 86, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(479, 'RotomFan Rotom', 'Electric', 'Flying', 520, 50, 65, 107, 105, 107, 86, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(479, 'RotomMow Rotom', 'Electric', 'Grass', 520, 50, 65, 107, 105, 107, 86, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(480, 'Uxie', 'Psychic', '', 580, 75, 75, 130, 75, 130, 95, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(481, 'Mesprit', 'Psychic', '', 580, 80, 105, 105, 105, 105, 80, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(482, 'Azelf', 'Psychic', '', 580, 75, 125, 70, 125, 70, 115, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(483, 'Dialga', 'Steel', 'Dragon', 680, 100, 120, 120, 150, 100, 90, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(484, 'Palkia', 'Water', 'Dragon', 680, 90, 120, 100, 150, 120, 100, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(485, 'Heatran', 'Fire', 'Steel', 600, 91, 90, 106, 130, 106, 77, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(486, 'Regigigas', 'Normal', '', 670, 110, 160, 110, 80, 110, 100, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(487, 'GiratinaAltered Forme', 'Ghost', 'Dragon', 680, 150, 100, 120, 100, 120, 90, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(487, 'GiratinaOrigin Forme', 'Ghost', 'Dragon', 680, 150, 120, 100, 120, 100, 90, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(488, 'Cresselia', 'Psychic', '', 600, 120, 70, 120, 75, 130, 85, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(489, 'Phione', 'Water', '', 480, 80, 80, 80, 80, 80, 80, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(490, 'Manaphy', 'Water', '', 600, 100, 100, 100, 100, 100, 100, 4, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(491, 'Darkrai', 'Dark', '', 600, 70, 90, 90, 135, 90, 125, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(492, 'ShayminLand Forme', 'Grass', '', 600, 100, 100, 100, 100, 100, 100, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(492, 'ShayminSky Forme', 'Grass', 'Flying', 600, 100, 103, 75, 120, 75, 127, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(493, 'Arceus', 'Normal', '', 720, 120, 120, 120, 120, 120, 120, 4, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(494, 'Victini', 'Psychic', 'Fire', 600, 100, 100, 100, 100, 100, 100, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(495, 'Snivy', 'Grass', '', 308, 45, 45, 55, 45, 55, 63, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(496, 'Servine', 'Grass', '', 413, 60, 60, 75, 60, 75, 83, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(497, 'Serperior', 'Grass', '', 528, 75, 75, 95, 75, 95, 113, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(498, 'Tepig', 'Fire', '', 308, 65, 63, 45, 45, 45, 45, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(499, 'Pignite', 'Fire', 'Fighting', 418, 90, 93, 55, 70, 55, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(500, 'Emboar', 'Fire', 'Fighting', 528, 110, 123, 65, 100, 65, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(501, 'Oshawott', 'Water', '', 308, 55, 55, 45, 63, 45, 45, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(502, 'Dewott', 'Water', '', 413, 75, 75, 60, 83, 60, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(503, 'Samurott', 'Water', '', 528, 95, 100, 85, 108, 70, 70, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(504, 'Patrat', 'Normal', '', 255, 45, 55, 39, 35, 39, 42, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(505, 'Watchog', 'Normal', '', 420, 60, 85, 69, 60, 69, 77, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(506, 'Lillipup', 'Normal', '', 275, 45, 60, 45, 25, 45, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(507, 'Herdier', 'Normal', '', 370, 65, 80, 65, 35, 65, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(508, 'Stoutland', 'Normal', '', 500, 85, 110, 90, 45, 90, 80, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(509, 'Purrloin', 'Dark', '', 281, 41, 50, 37, 50, 37, 66, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(510, 'Liepard', 'Dark', '', 446, 64, 88, 50, 88, 50, 106, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(511, 'Pansage', 'Grass', '', 316, 50, 53, 48, 53, 48, 64, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(512, 'Simisage', 'Grass', '', 498, 75, 98, 63, 98, 63, 101, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(513, 'Pansear', 'Fire', '', 316, 50, 53, 48, 53, 48, 64, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(514, 'Simisear', 'Fire', '', 498, 75, 98, 63, 98, 63, 101, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(515, 'Panpour', 'Water', '', 316, 50, 53, 48, 53, 48, 64, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(516, 'Simipour', 'Water', '', 498, 75, 98, 63, 98, 63, 101, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(517, 'Munna', 'Psychic', '', 292, 76, 25, 45, 67, 55, 24, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(518, 'Musharna', 'Psychic', '', 487, 116, 55, 85, 107, 95, 29, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(519, 'Pidove', 'Normal', 'Flying', 264, 50, 55, 50, 36, 30, 43, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(520, 'Tranquill', 'Normal', 'Flying', 358, 62, 77, 62, 50, 42, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(521, 'Unfezant', 'Normal', 'Flying', 488, 80, 115, 80, 65, 55, 93, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(522, 'Blitzle', 'Electric', '', 295, 45, 60, 32, 50, 32, 76, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(523, 'Zebstrika', 'Electric', '', 497, 75, 100, 63, 80, 63, 116, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(524, 'Roggenrola', 'Rock', '', 280, 55, 75, 85, 25, 25, 15, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(525, 'Boldore', 'Rock', '', 390, 70, 105, 105, 50, 40, 20, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(526, 'Gigalith', 'Rock', '', 515, 85, 135, 130, 60, 80, 25, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(527, 'Woobat', 'Psychic', 'Flying', 313, 55, 45, 43, 55, 43, 72, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(528, 'Swoobat', 'Psychic', 'Flying', 425, 67, 57, 55, 77, 55, 114, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(529, 'Drilbur', 'Ground', '', 328, 60, 85, 40, 30, 45, 68, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(530, 'Excadrill', 'Ground', 'Steel', 508, 110, 135, 60, 50, 65, 88, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(531, 'Audino', 'Normal', '', 445, 103, 60, 86, 60, 86, 50, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(531, 'AudinoMega Audino', 'Normal', 'Fairy', 545, 103, 60, 126, 80, 126, 50, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(532, 'Timburr', 'Fighting', '', 305, 75, 80, 55, 25, 35, 35, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(533, 'Gurdurr', 'Fighting', '', 405, 85, 105, 85, 40, 50, 40, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(534, 'Conkeldurr', 'Fighting', '', 505, 105, 140, 95, 55, 65, 45, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(535, 'Tympole', 'Water', '', 294, 50, 50, 40, 50, 40, 64, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(536, 'Palpitoad', 'Water', 'Ground', 384, 75, 65, 55, 65, 55, 69, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(537, 'Seismitoad', 'Water', 'Ground', 509, 105, 95, 75, 85, 75, 74, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(538, 'Throh', 'Fighting', '', 465, 120, 100, 85, 30, 85, 45, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(539, 'Sawk', 'Fighting', '', 465, 75, 125, 75, 30, 75, 85, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(540, 'Sewaddle', 'Bug', 'Grass', 310, 45, 53, 70, 40, 60, 42, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(541, 'Swadloon', 'Bug', 'Grass', 380, 55, 63, 90, 50, 80, 42, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(542, 'Leavanny', 'Bug', 'Grass', 500, 75, 103, 80, 70, 80, 92, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(543, 'Venipede', 'Bug', 'Poison', 260, 30, 45, 59, 30, 39, 57, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(544, 'Whirlipede', 'Bug', 'Poison', 360, 40, 55, 99, 40, 79, 47, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(545, 'Scolipede', 'Bug', 'Poison', 485, 60, 100, 89, 55, 69, 112, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(546, 'Cottonee', 'Grass', 'Fairy', 280, 40, 27, 60, 37, 50, 66, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(547, 'Whimsicott', 'Grass', 'Fairy', 480, 60, 67, 85, 77, 75, 116, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(548, 'Petilil', 'Grass', '', 280, 45, 35, 50, 70, 50, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(549, 'Lilligant', 'Grass', '', 480, 70, 60, 75, 110, 75, 90, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(550, 'Basculin', 'Water', '', 460, 70, 92, 65, 80, 55, 98, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(551, 'Sandile', 'Ground', 'Dark', 292, 50, 72, 35, 35, 35, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(552, 'Krokorok', 'Ground', 'Dark', 351, 60, 82, 45, 45, 45, 74, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(553, 'Krookodile', 'Ground', 'Dark', 519, 95, 117, 80, 65, 70, 92, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(554, 'Darumaka', 'Fire', '', 315, 70, 90, 45, 15, 45, 50, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(555, 'DarmanitanStandard Mode', 'Fire', '', 480, 105, 140, 55, 30, 55, 95, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(555, 'DarmanitanZen Mode', 'Fire', 'Psychic', 540, 105, 30, 105, 140, 105, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(556, 'Maractus', 'Grass', '', 461, 75, 86, 67, 106, 67, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(557, 'Dwebble', 'Bug', 'Rock', 325, 50, 65, 85, 35, 35, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(558, 'Crustle', 'Bug', 'Rock', 475, 70, 95, 125, 65, 75, 45, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(559, 'Scraggy', 'Dark', 'Fighting', 348, 50, 75, 70, 35, 70, 48, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(560, 'Scrafty', 'Dark', 'Fighting', 488, 65, 90, 115, 45, 115, 58, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(561, 'Sigilyph', 'Psychic', 'Flying', 490, 72, 58, 80, 103, 80, 97, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(562, 'Yamask', 'Ghost', '', 303, 38, 30, 85, 55, 65, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(563, 'Cofagrigus', 'Ghost', '', 483, 58, 50, 145, 95, 105, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(564, 'Tirtouga', 'Water', 'Rock', 355, 54, 78, 103, 53, 45, 22, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(565, 'Carracosta', 'Water', 'Rock', 495, 74, 108, 133, 83, 65, 32, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(566, 'Archen', 'Rock', 'Flying', 401, 55, 112, 45, 74, 45, 70, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(567, 'Archeops', 'Rock', 'Flying', 567, 75, 140, 65, 112, 65, 110, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(568, 'Trubbish', 'Poison', '', 329, 50, 50, 62, 40, 62, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(569, 'Garbodor', 'Poison', '', 474, 80, 95, 82, 60, 82, 75, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(570, 'Zorua', 'Dark', '', 330, 40, 65, 40, 80, 40, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(571, 'Zoroark', 'Dark', '', 510, 60, 105, 60, 120, 60, 105, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(572, 'Minccino', 'Normal', '', 300, 55, 50, 40, 40, 40, 75, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(573, 'Cinccino', 'Normal', '', 470, 75, 95, 60, 65, 60, 115, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(574, 'Gothita', 'Psychic', '', 290, 45, 30, 50, 55, 65, 45, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(575, 'Gothorita', 'Psychic', '', 390, 60, 45, 70, 75, 85, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(576, 'Gothitelle', 'Psychic', '', 490, 70, 55, 95, 95, 110, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(577, 'Solosis', 'Psychic', '', 290, 45, 30, 40, 105, 50, 20, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(578, 'Duosion', 'Psychic', '', 370, 65, 40, 50, 125, 60, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(579, 'Reuniclus', 'Psychic', '', 490, 110, 65, 75, 125, 85, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(580, 'Ducklett', 'Water', 'Flying', 305, 62, 44, 50, 44, 50, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(581, 'Swanna', 'Water', 'Flying', 473, 75, 87, 63, 87, 63, 98, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(582, 'Vanillite', 'Ice', '', 305, 36, 50, 50, 65, 60, 44, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(583, 'Vanillish', 'Ice', '', 395, 51, 65, 65, 80, 75, 59, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(584, 'Vanilluxe', 'Ice', '', 535, 71, 95, 85, 110, 95, 79, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(585, 'Deerling', 'Normal', 'Grass', 335, 60, 60, 50, 40, 50, 75, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(586, 'Sawsbuck', 'Normal', 'Grass', 475, 80, 100, 70, 60, 70, 95, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(587, 'Emolga', 'Electric', 'Flying', 428, 55, 75, 60, 75, 60, 103, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(588, 'Karrablast', 'Bug', '', 315, 50, 75, 45, 40, 45, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(589, 'Escavalier', 'Bug', 'Steel', 495, 70, 135, 105, 60, 105, 20, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(590, 'Foongus', 'Grass', 'Poison', 294, 69, 55, 45, 55, 55, 15, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(591, 'Amoonguss', 'Grass', 'Poison', 464, 114, 85, 70, 85, 80, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(592, 'Frillish', 'Water', 'Ghost', 335, 55, 40, 50, 65, 85, 40, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(593, 'Jellicent', 'Water', 'Ghost', 480, 100, 60, 70, 85, 105, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(594, 'Alomomola', 'Water', '', 470, 165, 75, 80, 40, 45, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(595, 'Joltik', 'Bug', 'Electric', 319, 50, 47, 50, 57, 50, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(596, 'Galvantula', 'Bug', 'Electric', 472, 70, 77, 60, 97, 60, 108, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(597, 'Ferroseed', 'Grass', 'Steel', 305, 44, 50, 91, 24, 86, 10, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(598, 'Ferrothorn', 'Grass', 'Steel', 489, 74, 94, 131, 54, 116, 20, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(599, 'Klink', 'Steel', '', 300, 40, 55, 70, 45, 60, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(600, 'Klang', 'Steel', '', 440, 60, 80, 95, 70, 85, 50, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(601, 'Klinklang', 'Steel', '', 520, 60, 100, 115, 70, 85, 90, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(602, 'Tynamo', 'Electric', '', 275, 35, 55, 40, 45, 40, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(603, 'Eelektrik', 'Electric', '', 405, 65, 85, 70, 75, 70, 40, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(604, 'Eelektross', 'Electric', '', 515, 85, 115, 80, 105, 80, 50, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(605, 'Elgyem', 'Psychic', '', 335, 55, 55, 55, 85, 55, 30, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(606, 'Beheeyem', 'Psychic', '', 485, 75, 75, 75, 125, 95, 40, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(607, 'Litwick', 'Ghost', 'Fire', 275, 50, 30, 55, 65, 55, 20, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(608, 'Lampent', 'Ghost', 'Fire', 370, 60, 40, 60, 95, 60, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(609, 'Chandelure', 'Ghost', 'Fire', 520, 60, 55, 90, 145, 90, 80, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(610, 'Axew', 'Dragon', '', 320, 46, 87, 60, 30, 40, 57, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(611, 'Fraxure', 'Dragon', '', 410, 66, 117, 70, 40, 50, 67, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(612, 'Haxorus', 'Dragon', '', 540, 76, 147, 90, 60, 70, 97, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(613, 'Cubchoo', 'Ice', '', 305, 55, 70, 40, 60, 40, 40, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(614, 'Beartic', 'Ice', '', 485, 95, 110, 80, 70, 80, 50, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(615, 'Cryogonal', 'Ice', '', 485, 70, 50, 30, 95, 135, 105, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(616, 'Shelmet', 'Bug', '', 305, 50, 40, 85, 40, 65, 25, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(617, 'Accelgor', 'Bug', '', 495, 80, 70, 40, 100, 60, 145, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(618, 'Stunfisk', 'Ground', 'Electric', 471, 109, 66, 84, 81, 99, 32, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(619, 'Mienfoo', 'Fighting', '', 350, 45, 85, 50, 55, 50, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(620, 'Mienshao', 'Fighting', '', 510, 65, 125, 60, 95, 60, 105, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(621, 'Druddigon', 'Dragon', '', 485, 77, 120, 90, 60, 90, 48, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(622, 'Golett', 'Ground', 'Ghost', 303, 59, 74, 50, 35, 50, 35, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(623, 'Golurk', 'Ground', 'Ghost', 483, 89, 124, 80, 55, 80, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(624, 'Pawniard', 'Dark', 'Steel', 340, 45, 85, 70, 40, 40, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(625, 'Bisharp', 'Dark', 'Steel', 490, 65, 125, 100, 60, 70, 70, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(626, 'Bouffalant', 'Normal', '', 490, 95, 110, 95, 40, 95, 55, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(627, 'Rufflet', 'Normal', 'Flying', 350, 70, 83, 50, 37, 50, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(628, 'Braviary', 'Normal', 'Flying', 510, 100, 123, 75, 57, 75, 80, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(629, 'Vullaby', 'Dark', 'Flying', 370, 70, 55, 75, 45, 65, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(630, 'Mandibuzz', 'Dark', 'Flying', 510, 110, 65, 105, 55, 95, 80, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(631, 'Heatmor', 'Fire', '', 484, 85, 97, 66, 105, 66, 65, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(632, 'Durant', 'Bug', 'Steel', 484, 58, 109, 112, 48, 48, 109, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(633, 'Deino', 'Dark', 'Dragon', 300, 52, 65, 50, 45, 50, 38, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(634, 'Zweilous', 'Dark', 'Dragon', 420, 72, 85, 70, 65, 70, 58, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(635, 'Hydreigon', 'Dark', 'Dragon', 600, 92, 105, 90, 125, 90, 98, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(636, 'Larvesta', 'Bug', 'Fire', 360, 55, 85, 55, 50, 55, 60, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(637, 'Volcarona', 'Bug', 'Fire', 550, 85, 60, 65, 135, 105, 100, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(638, 'Cobalion', 'Steel', 'Fighting', 580, 91, 90, 129, 90, 72, 108, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(639, 'Terrakion', 'Rock', 'Fighting', 580, 91, 129, 90, 72, 90, 108, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(640, 'Virizion', 'Grass', 'Fighting', 580, 91, 90, 72, 90, 129, 108, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(641, 'TornadusIncarnate Forme', 'Flying', '', 580, 79, 115, 70, 125, 80, 111, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(641, 'TornadusTherian Forme', 'Flying', '', 580, 79, 100, 80, 110, 90, 121, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(642, 'ThundurusIncarnate Forme', 'Electric', 'Flying', 580, 79, 115, 70, 125, 80, 111, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(642, 'ThundurusTherian Forme', 'Electric', 'Flying', 580, 79, 105, 70, 145, 80, 101, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(643, 'Reshiram', 'Dragon', 'Fire', 680, 100, 120, 100, 150, 120, 90, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(644, 'Zekrom', 'Dragon', 'Electric', 680, 100, 150, 120, 120, 100, 90, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(645, 'LandorusIncarnate Forme', 'Ground', 'Flying', 600, 89, 125, 90, 115, 80, 101, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(645, 'LandorusTherian Forme', 'Ground', 'Flying', 600, 89, 145, 90, 105, 80, 91, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(646, 'Kyurem', 'Dragon', 'Ice', 660, 125, 130, 90, 130, 90, 95, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(646, 'KyuremBlack Kyurem', 'Dragon', 'Ice', 700, 125, 170, 100, 120, 90, 95, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(646, 'KyuremWhite Kyurem', 'Dragon', 'Ice', 700, 125, 120, 90, 170, 100, 95, 5, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(647, 'KeldeoOrdinary Forme', 'Water', 'Fighting', 580, 91, 72, 90, 129, 90, 108, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(647, 'KeldeoResolute Forme', 'Water', 'Fighting', 580, 91, 72, 90, 129, 90, 108, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(648, 'MeloettaAria Forme', 'Normal', 'Psychic', 600, 100, 77, 77, 128, 128, 90, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(648, 'MeloettaPirouette Forme', 'Normal', 'Fighting', 600, 100, 128, 90, 77, 77, 128, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(649, 'Genesect', 'Bug', 'Steel', 600, 71, 120, 95, 120, 95, 99, 5, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(650, 'Chespin', 'Grass', '', 313, 56, 61, 65, 48, 45, 38, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(651, 'Quilladin', 'Grass', '', 405, 61, 78, 95, 56, 58, 57, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(652, 'Chesnaught', 'Grass', 'Fighting', 530, 88, 107, 122, 74, 75, 64, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(653, 'Fennekin', 'Fire', '', 307, 40, 45, 40, 62, 60, 60, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(654, 'Braixen', 'Fire', '', 409, 59, 59, 58, 90, 70, 73, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(655, 'Delphox', 'Fire', 'Psychic', 534, 75, 69, 72, 114, 100, 104, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(656, 'Froakie', 'Water', '', 314, 41, 56, 40, 62, 44, 71, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(657, 'Frogadier', 'Water', '', 405, 54, 63, 52, 83, 56, 97, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(658, 'Greninja', 'Water', 'Dark', 530, 72, 95, 67, 103, 71, 122, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(659, 'Bunnelby', 'Normal', '', 237, 38, 36, 38, 32, 36, 57, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(660, 'Diggersby', 'Normal', 'Ground', 423, 85, 56, 77, 50, 77, 78, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(661, 'Fletchling', 'Normal', 'Flying', 278, 45, 50, 43, 40, 38, 62, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(662, 'Fletchinder', 'Fire', 'Flying', 382, 62, 73, 55, 56, 52, 84, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(663, 'Talonflame', 'Fire', 'Flying', 499, 78, 81, 71, 74, 69, 126, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(664, 'Scatterbug', 'Bug', '', 200, 38, 35, 40, 27, 25, 35, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(665, 'Spewpa', 'Bug', '', 213, 45, 22, 60, 27, 30, 29, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(666, 'Vivillon', 'Bug', 'Flying', 411, 80, 52, 50, 90, 50, 89, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(667, 'Litleo', 'Fire', 'Normal', 369, 62, 50, 58, 73, 54, 72, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(668, 'Pyroar', 'Fire', 'Normal', 507, 86, 68, 72, 109, 66, 106, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(669, 'Flabébé', 'Fairy', '', 303, 44, 38, 39, 61, 79, 42, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(670, 'Floette', 'Fairy', '', 371, 54, 45, 47, 75, 98, 52, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(671, 'Florges', 'Fairy', '', 552, 78, 65, 68, 112, 154, 75, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(672, 'Skiddo', 'Grass', '', 350, 66, 65, 48, 62, 57, 52, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(673, 'Gogoat', 'Grass', '', 531, 123, 100, 62, 97, 81, 68, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(674, 'Pancham', 'Fighting', '', 348, 67, 82, 62, 46, 48, 43, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(675, 'Pangoro', 'Fighting', 'Dark', 495, 95, 124, 78, 69, 71, 58, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(676, 'Furfrou', 'Normal', '', 472, 75, 80, 60, 65, 90, 102, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(677, 'Espurr', 'Psychic', '', 355, 62, 48, 54, 63, 60, 68, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(678, 'MeowsticMale', 'Psychic', '', 466, 74, 48, 76, 83, 81, 104, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(678, 'MeowsticFemale', 'Psychic', '', 466, 74, 48, 76, 83, 81, 104, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(679, 'Honedge', 'Steel', 'Ghost', 325, 45, 80, 100, 35, 37, 28, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(680, 'Doublade', 'Steel', 'Ghost', 448, 59, 110, 150, 45, 49, 35, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(681, 'AegislashBlade Forme', 'Steel', 'Ghost', 520, 60, 150, 50, 150, 50, 60, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(681, 'AegislashShield Forme', 'Steel', 'Ghost', 520, 60, 50, 150, 50, 150, 60, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(682, 'Spritzee', 'Fairy', '', 341, 78, 52, 60, 63, 65, 23, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(683, 'Aromatisse', 'Fairy', '', 462, 101, 72, 72, 99, 89, 29, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(684, 'Swirlix', 'Fairy', '', 341, 62, 48, 66, 59, 57, 49, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(685, 'Slurpuff', 'Fairy', '', 480, 82, 80, 86, 85, 75, 72, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(686, 'Inkay', 'Dark', 'Psychic', 288, 53, 54, 53, 37, 46, 45, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(687, 'Malamar', 'Dark', 'Psychic', 482, 86, 92, 88, 68, 75, 73, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(688, 'Binacle', 'Rock', 'Water', 306, 42, 52, 67, 39, 56, 50, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(689, 'Barbaracle', 'Rock', 'Water', 500, 72, 105, 115, 54, 86, 68, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(690, 'Skrelp', 'Poison', 'Water', 320, 50, 60, 60, 60, 60, 30, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(691, 'Dragalge', 'Poison', 'Dragon', 494, 65, 75, 90, 97, 123, 44, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(692, 'Clauncher', 'Water', '', 330, 50, 53, 62, 58, 63, 44, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(693, 'Clawitzer', 'Water', '', 500, 71, 73, 88, 120, 89, 59, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(694, 'Helioptile', 'Electric', 'Normal', 289, 44, 38, 33, 61, 43, 70, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(695, 'Heliolisk', 'Electric', 'Normal', 481, 62, 55, 52, 109, 94, 109, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(696, 'Tyrunt', 'Rock', 'Dragon', 362, 58, 89, 77, 45, 45, 48, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(697, 'Tyrantrum', 'Rock', 'Dragon', 521, 82, 121, 119, 69, 59, 71, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(698, 'Amaura', 'Rock', 'Ice', 362, 77, 59, 50, 67, 63, 46, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(699, 'Aurorus', 'Rock', 'Ice', 521, 123, 77, 72, 99, 92, 58, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(700, 'Sylveon', 'Fairy', '', 525, 95, 65, 65, 110, 130, 60, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(701, 'Hawlucha', 'Fighting', 'Flying', 500, 78, 92, 75, 74, 63, 118, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(702, 'Dedenne', 'Electric', 'Fairy', 431, 67, 58, 57, 81, 67, 101, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(703, 'Carbink', 'Rock', 'Fairy', 500, 50, 50, 150, 50, 150, 50, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(704, 'Goomy', 'Dragon', '', 300, 45, 50, 35, 55, 75, 40, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(705, 'Sliggoo', 'Dragon', '', 452, 68, 75, 53, 83, 113, 60, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(706, 'Goodra', 'Dragon', '', 600, 90, 100, 70, 110, 150, 80, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(707, 'Klefki', 'Steel', 'Fairy', 470, 57, 80, 91, 80, 87, 75, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(708, 'Phantump', 'Ghost', 'Grass', 309, 43, 70, 48, 50, 60, 38, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(709, 'Trevenant', 'Ghost', 'Grass', 474, 85, 110, 76, 65, 82, 56, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(710, 'PumpkabooAverage Size', 'Ghost', 'Grass', 335, 49, 66, 70, 44, 55, 51, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(710, 'PumpkabooSmall Size', 'Ghost', 'Grass', 335, 44, 66, 70, 44, 55, 56, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(710, 'PumpkabooLarge Size', 'Ghost', 'Grass', 335, 54, 66, 70, 44, 55, 46, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(710, 'PumpkabooSuper Size', 'Ghost', 'Grass', 335, 59, 66, 70, 44, 55, 41, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(711, 'GourgeistAverage Size', 'Ghost', 'Grass', 494, 65, 90, 122, 58, 75, 84, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(711, 'GourgeistSmall Size', 'Ghost', 'Grass', 494, 55, 85, 122, 58, 75, 99, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(711, 'GourgeistLarge Size', 'Ghost', 'Grass', 494, 75, 95, 122, 58, 75, 69, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(711, 'GourgeistSuper Size', 'Ghost', 'Grass', 494, 85, 100, 122, 58, 75, 54, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(712, 'Bergmite', 'Ice', '', 304, 55, 69, 85, 32, 35, 28, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(713, 'Avalugg', 'Ice', '', 514, 95, 117, 184, 44, 46, 28, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(714, 'Noibat', 'Flying', 'Dragon', 245, 40, 30, 35, 45, 40, 55, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(715, 'Noivern', 'Flying', 'Dragon', 535, 85, 70, 80, 97, 80, 123, 6, 'False');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(716, 'Xerneas', 'Fairy', '', 680, 126, 131, 95, 131, 98, 99, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(717, 'Yveltal', 'Dark', 'Flying', 680, 126, 131, 95, 131, 98, 99, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(718, 'Zygarde50% Forme', 'Dragon', 'Ground', 600, 108, 100, 121, 81, 95, 95, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(719, 'Diancie', 'Rock', 'Fairy', 600, 50, 100, 150, 100, 150, 50, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(719, 'DiancieMega Diancie', 'Rock', 'Fairy', 700, 50, 160, 110, 160, 110, 110, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(720, 'HoopaHoopa Confined', 'Psychic', 'Ghost', 600, 80, 110, 60, 150, 130, 70, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(720, 'HoopaHoopa Unbound', 'Psychic', 'Dark', 680, 80, 160, 60, 170, 130, 80, 6, 'True');
-INSERT INTO pokemons ( id_pokemon, name, type, total, hp, attack, defense, sp_atk, sp_def, speed, generation, legendary, legenday_descripcion) VALUES(721, 'Volcanion', 'Fire', 'Water', 600, 80, 110, 120, 130, 90, 70, 6, 'True');
+-- phpMyAdmin SQL Dump
+-- version 4.6.5.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Sep 29, 2020 at 06:11 PM
+-- Server version: 10.1.21-MariaDB
+-- PHP Version: 7.0.15
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `pokeapi`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pokemons`
+--
+
+CREATE TABLE `pokemons` (
+  `id` bigint(20) NOT NULL,
+  `attack` int(11) DEFAULT NULL,
+  `defense` int(11) DEFAULT NULL,
+  `generation` int(11) DEFAULT NULL,
+  `hp` int(11) DEFAULT NULL,
+  `id_pokemon` int(11) DEFAULT NULL,
+  `legendary` int(11) DEFAULT NULL,
+  `legenday_descripcion` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `name` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `sp_atk` int(11) DEFAULT NULL,
+  `sp_def` int(11) DEFAULT NULL,
+  `speed` int(11) DEFAULT NULL,
+  `total` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `type` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Dumping data for table `pokemons`
+--
+
+INSERT INTO `pokemons` (`id`, `attack`, `defense`, `generation`, `hp`, `id_pokemon`, `legendary`, `legenday_descripcion`, `name`, `sp_atk`, `sp_def`, `speed`, `total`, `type`) VALUES
+(1, 45, 49, 45, 318, 1, 1, 'False', 'Bulbasaur', 49, 65, 65, 'Poison', 'Grass'),
+(2, 60, 62, 60, 405, 2, 1, 'False', 'Ivysaur', 63, 80, 80, 'Poison', 'Grass'),
+(3, 80, 82, 80, 525, 3, 1, 'False', 'Venusaur', 83, 100, 100, 'Poison', 'Grass'),
+(4, 80, 100, 80, 625, 3, 1, 'False', 'VenusaurMega Venusaur', 123, 122, 120, 'Poison', 'Grass'),
+(5, 39, 52, 65, 309, 4, 1, 'False', 'Charmander', 43, 60, 50, '', 'Fire'),
+(6, 58, 64, 80, 405, 5, 1, 'False', 'Charmeleon', 58, 80, 65, '', 'Fire'),
+(7, 78, 84, 100, 534, 6, 1, 'False', 'Charizard', 78, 109, 85, 'Flying', 'Fire'),
+(8, 78, 130, 100, 634, 6, 1, 'False', 'CharizardMega Charizard X', 111, 130, 85, 'Dragon', 'Fire'),
+(9, 78, 104, 100, 634, 6, 1, 'False', 'CharizardMega Charizard Y', 78, 159, 115, 'Flying', 'Fire'),
+(10, 44, 48, 43, 314, 7, 1, 'False', 'Squirtle', 65, 50, 64, '', 'Water'),
+(11, 59, 63, 58, 405, 8, 1, 'False', 'Wartortle', 80, 65, 80, '', 'Water'),
+(12, 79, 83, 78, 530, 9, 1, 'False', 'Blastoise', 100, 85, 105, '', 'Water'),
+(13, 79, 103, 78, 630, 9, 1, 'False', 'BlastoiseMega Blastoise', 120, 135, 115, '', 'Water'),
+(14, 45, 30, 45, 195, 10, 1, 'False', 'Caterpie', 35, 20, 20, '', 'Bug'),
+(15, 50, 20, 30, 205, 11, 1, 'False', 'Metapod', 55, 25, 25, '', 'Bug'),
+(16, 60, 45, 70, 395, 12, 1, 'False', 'Butterfree', 50, 90, 80, 'Flying', 'Bug'),
+(17, 40, 35, 50, 195, 13, 1, 'False', 'Weedle', 30, 20, 20, 'Poison', 'Bug'),
+(18, 45, 25, 35, 205, 14, 1, 'False', 'Kakuna', 50, 25, 25, 'Poison', 'Bug'),
+(19, 65, 90, 75, 395, 15, 1, 'False', 'Beedrill', 40, 45, 80, 'Poison', 'Bug'),
+(20, 65, 150, 145, 495, 15, 1, 'False', 'BeedrillMega Beedrill', 40, 15, 80, 'Poison', 'Bug'),
+(21, 40, 45, 56, 251, 16, 1, 'False', 'Pidgey', 40, 35, 35, 'Flying', 'Normal'),
+(22, 63, 60, 71, 349, 17, 1, 'False', 'Pidgeotto', 55, 50, 50, 'Flying', 'Normal'),
+(23, 83, 80, 101, 479, 18, 1, 'False', 'Pidgeot', 75, 70, 70, 'Flying', 'Normal'),
+(24, 83, 80, 121, 579, 18, 1, 'False', 'PidgeotMega Pidgeot', 80, 135, 80, 'Flying', 'Normal'),
+(25, 30, 56, 72, 253, 19, 1, 'False', 'Rattata', 35, 25, 35, '', 'Normal'),
+(26, 55, 81, 97, 413, 20, 1, 'False', 'Raticate', 60, 50, 70, '', 'Normal'),
+(27, 40, 60, 70, 262, 21, 1, 'False', 'Spearow', 30, 31, 31, 'Flying', 'Normal'),
+(28, 65, 90, 100, 442, 22, 1, 'False', 'Fearow', 65, 61, 61, 'Flying', 'Normal'),
+(29, 35, 60, 55, 288, 23, 1, 'False', 'Ekans', 44, 40, 54, '', 'Poison'),
+(30, 60, 85, 80, 438, 24, 1, 'False', 'Arbok', 69, 65, 79, '', 'Poison'),
+(31, 35, 55, 90, 320, 25, 1, 'False', 'Pikachu', 40, 50, 50, '', 'Electric'),
+(32, 60, 90, 110, 485, 26, 1, 'False', 'Raichu', 55, 90, 80, '', 'Electric'),
+(33, 50, 75, 40, 300, 27, 1, 'False', 'Sandshrew', 85, 20, 30, '', 'Ground'),
+(34, 75, 100, 65, 450, 28, 1, 'False', 'Sandslash', 110, 45, 55, '', 'Ground'),
+(35, 55, 47, 41, 275, 29, 1, 'False', 'Nidoranâ™€', 52, 40, 40, '', 'Poison'),
+(36, 70, 62, 56, 365, 30, 1, 'False', 'Nidorina', 67, 55, 55, '', 'Poison'),
+(37, 90, 92, 76, 505, 31, 1, 'False', 'Nidoqueen', 87, 75, 85, 'Ground', 'Poison'),
+(38, 46, 57, 50, 273, 32, 1, 'False', 'Nidoranâ™‚', 40, 40, 40, '', 'Poison'),
+(39, 61, 72, 65, 365, 33, 1, 'False', 'Nidorino', 57, 55, 55, '', 'Poison'),
+(40, 81, 102, 85, 505, 34, 1, 'False', 'Nidoking', 77, 85, 75, 'Ground', 'Poison'),
+(41, 70, 45, 35, 323, 35, 1, 'False', 'Clefairy', 48, 60, 65, '', 'Fairy'),
+(42, 95, 70, 60, 483, 36, 1, 'False', 'Clefable', 73, 95, 90, '', 'Fairy'),
+(43, 38, 41, 65, 299, 37, 1, 'False', 'Vulpix', 40, 50, 65, '', 'Fire'),
+(44, 73, 76, 100, 505, 38, 1, 'False', 'Ninetales', 75, 81, 100, '', 'Fire'),
+(45, 115, 45, 20, 270, 39, 1, 'False', 'Jigglypuff', 20, 45, 25, 'Fairy', 'Normal'),
+(46, 140, 70, 45, 435, 40, 1, 'False', 'Wigglytuff', 45, 85, 50, 'Fairy', 'Normal'),
+(47, 40, 45, 55, 245, 41, 1, 'False', 'Zubat', 35, 30, 40, 'Flying', 'Poison'),
+(48, 75, 80, 90, 455, 42, 1, 'False', 'Golbat', 70, 65, 75, 'Flying', 'Poison'),
+(49, 45, 50, 30, 320, 43, 1, 'False', 'Oddish', 55, 75, 65, 'Poison', 'Grass'),
+(50, 60, 65, 40, 395, 44, 1, 'False', 'Gloom', 70, 85, 75, 'Poison', 'Grass'),
+(51, 75, 80, 50, 490, 45, 1, 'False', 'Vileplume', 85, 110, 90, 'Poison', 'Grass'),
+(52, 35, 70, 25, 285, 46, 1, 'False', 'Paras', 55, 45, 55, 'Grass', 'Bug'),
+(53, 60, 95, 30, 405, 47, 1, 'False', 'Parasect', 80, 60, 80, 'Grass', 'Bug'),
+(54, 60, 55, 45, 305, 48, 1, 'False', 'Venonat', 50, 40, 55, 'Poison', 'Bug'),
+(55, 70, 65, 90, 450, 49, 1, 'False', 'Venomoth', 60, 90, 75, 'Poison', 'Bug'),
+(56, 10, 55, 95, 265, 50, 1, 'False', 'Diglett', 25, 35, 45, '', 'Ground'),
+(57, 35, 80, 120, 405, 51, 1, 'False', 'Dugtrio', 50, 50, 70, '', 'Ground'),
+(58, 40, 45, 90, 290, 52, 1, 'False', 'Meowth', 35, 40, 40, '', 'Normal'),
+(59, 65, 70, 115, 440, 53, 1, 'False', 'Persian', 60, 65, 65, '', 'Normal'),
+(60, 50, 52, 55, 320, 54, 1, 'False', 'Psyduck', 48, 65, 50, '', 'Water'),
+(61, 80, 82, 85, 500, 55, 1, 'False', 'Golduck', 78, 95, 80, '', 'Water'),
+(62, 40, 80, 70, 305, 56, 1, 'False', 'Mankey', 35, 35, 45, '', 'Fighting'),
+(63, 65, 105, 95, 455, 57, 1, 'False', 'Primeape', 60, 60, 70, '', 'Fighting'),
+(64, 55, 70, 60, 350, 58, 1, 'False', 'Growlithe', 45, 70, 50, '', 'Fire'),
+(65, 90, 110, 95, 555, 59, 1, 'False', 'Arcanine', 80, 100, 80, '', 'Fire'),
+(66, 40, 50, 90, 300, 60, 1, 'False', 'Poliwag', 40, 40, 40, '', 'Water'),
+(67, 65, 65, 90, 385, 61, 1, 'False', 'Poliwhirl', 65, 50, 50, '', 'Water'),
+(68, 90, 95, 70, 510, 62, 1, 'False', 'Poliwrath', 95, 70, 90, 'Fighting', 'Water'),
+(69, 25, 20, 90, 310, 63, 1, 'False', 'Abra', 15, 105, 55, '', 'Psychic'),
+(70, 40, 35, 105, 400, 64, 1, 'False', 'Kadabra', 30, 120, 70, '', 'Psychic'),
+(71, 55, 50, 120, 500, 65, 1, 'False', 'Alakazam', 45, 135, 95, '', 'Psychic'),
+(72, 55, 50, 150, 590, 65, 1, 'False', 'AlakazamMega Alakazam', 65, 175, 95, '', 'Psychic'),
+(73, 70, 80, 35, 305, 66, 1, 'False', 'Machop', 50, 35, 35, '', 'Fighting'),
+(74, 80, 100, 45, 405, 67, 1, 'False', 'Machoke', 70, 50, 60, '', 'Fighting'),
+(75, 90, 130, 55, 505, 68, 1, 'False', 'Machamp', 80, 65, 85, '', 'Fighting'),
+(76, 50, 75, 40, 300, 69, 1, 'False', 'Bellsprout', 35, 70, 30, 'Poison', 'Grass'),
+(77, 65, 90, 55, 390, 70, 1, 'False', 'Weepinbell', 50, 85, 45, 'Poison', 'Grass'),
+(78, 80, 105, 70, 490, 71, 1, 'False', 'Victreebel', 65, 100, 70, 'Poison', 'Grass'),
+(79, 40, 40, 70, 335, 72, 1, 'False', 'Tentacool', 35, 50, 100, 'Poison', 'Water'),
+(80, 80, 70, 100, 515, 73, 1, 'False', 'Tentacruel', 65, 80, 120, 'Poison', 'Water'),
+(81, 40, 80, 20, 300, 74, 1, 'False', 'Geodude', 100, 30, 30, 'Ground', 'Rock'),
+(82, 55, 95, 35, 390, 75, 1, 'False', 'Graveler', 115, 45, 45, 'Ground', 'Rock'),
+(83, 80, 120, 45, 495, 76, 1, 'False', 'Golem', 130, 55, 65, 'Ground', 'Rock'),
+(84, 50, 85, 90, 410, 77, 1, 'False', 'Ponyta', 55, 65, 65, '', 'Fire'),
+(85, 65, 100, 105, 500, 78, 1, 'False', 'Rapidash', 70, 80, 80, '', 'Fire'),
+(86, 90, 65, 15, 315, 79, 1, 'False', 'Slowpoke', 65, 40, 40, 'Psychic', 'Water'),
+(87, 95, 75, 30, 490, 80, 1, 'False', 'Slowbro', 110, 100, 80, 'Psychic', 'Water'),
+(88, 95, 75, 30, 590, 80, 1, 'False', 'SlowbroMega Slowbro', 180, 130, 80, 'Psychic', 'Water'),
+(89, 25, 35, 45, 325, 81, 1, 'False', 'Magnemite', 70, 95, 55, 'Steel', 'Electric'),
+(90, 50, 60, 70, 465, 82, 1, 'False', 'Magneton', 95, 120, 70, 'Steel', 'Electric'),
+(91, 52, 65, 60, 352, 83, 1, 'False', 'Farfetch', 55, 58, 62, 'Flying', 'Normal'),
+(92, 35, 85, 75, 310, 84, 1, 'False', 'Doduo', 45, 35, 35, 'Flying', 'Normal'),
+(93, 60, 110, 100, 460, 85, 1, 'False', 'Dodrio', 70, 60, 60, 'Flying', 'Normal'),
+(94, 65, 45, 45, 325, 86, 1, 'False', 'Seel', 55, 45, 70, '', 'Water'),
+(95, 90, 70, 70, 475, 87, 1, 'False', 'Dewgong', 80, 70, 95, 'Ice', 'Water'),
+(96, 80, 80, 25, 325, 88, 1, 'False', 'Grimer', 50, 40, 50, '', 'Poison'),
+(97, 105, 105, 50, 500, 89, 1, 'False', 'Muk', 75, 65, 100, '', 'Poison'),
+(98, 30, 65, 40, 305, 90, 1, 'False', 'Shellder', 100, 45, 25, '', 'Water'),
+(99, 50, 95, 70, 525, 91, 1, 'False', 'Cloyster', 180, 85, 45, 'Ice', 'Water'),
+(100, 30, 35, 80, 310, 92, 1, 'False', 'Gastly', 30, 100, 35, 'Poison', 'Ghost'),
+(101, 45, 50, 95, 405, 93, 1, 'False', 'Haunter', 45, 115, 55, 'Poison', 'Ghost'),
+(102, 60, 65, 110, 500, 94, 1, 'False', 'Gengar', 60, 130, 75, 'Poison', 'Ghost'),
+(103, 60, 65, 130, 600, 94, 1, 'False', 'GengarMega Gengar', 80, 170, 95, 'Poison', 'Ghost'),
+(104, 35, 45, 70, 385, 95, 1, 'False', 'Onix', 160, 30, 45, 'Ground', 'Rock'),
+(105, 60, 48, 42, 328, 96, 1, 'False', 'Drowzee', 45, 43, 90, '', 'Psychic'),
+(106, 85, 73, 67, 483, 97, 1, 'False', 'Hypno', 70, 73, 115, '', 'Psychic'),
+(107, 30, 105, 50, 325, 98, 1, 'False', 'Krabby', 90, 25, 25, '', 'Water'),
+(108, 55, 130, 75, 475, 99, 1, 'False', 'Kingler', 115, 50, 50, '', 'Water'),
+(109, 40, 30, 100, 330, 100, 1, 'False', 'Voltorb', 50, 55, 55, '', 'Electric'),
+(110, 60, 50, 140, 480, 101, 1, 'False', 'Electrode', 70, 80, 80, '', 'Electric'),
+(111, 60, 40, 40, 325, 102, 1, 'False', 'Exeggcute', 80, 60, 45, 'Psychic', 'Grass'),
+(112, 95, 95, 55, 520, 103, 1, 'False', 'Exeggutor', 85, 125, 65, 'Psychic', 'Grass'),
+(113, 50, 50, 35, 320, 104, 1, 'False', 'Cubone', 95, 40, 50, '', 'Ground'),
+(114, 60, 80, 45, 425, 105, 1, 'False', 'Marowak', 110, 50, 80, '', 'Ground'),
+(115, 50, 120, 87, 455, 106, 1, 'False', 'Hitmonlee', 53, 35, 110, '', 'Fighting'),
+(116, 50, 105, 76, 455, 107, 1, 'False', 'Hitmonchan', 79, 35, 110, '', 'Fighting'),
+(117, 90, 55, 30, 385, 108, 1, 'False', 'Lickitung', 75, 60, 75, '', 'Normal'),
+(118, 40, 65, 35, 340, 109, 1, 'False', 'Koffing', 95, 60, 45, '', 'Poison'),
+(119, 65, 90, 60, 490, 110, 1, 'False', 'Weezing', 120, 85, 70, '', 'Poison'),
+(120, 80, 85, 25, 345, 111, 1, 'False', 'Rhyhorn', 95, 30, 30, 'Rock', 'Ground'),
+(121, 105, 130, 40, 485, 112, 1, 'False', 'Rhydon', 120, 45, 45, 'Rock', 'Ground'),
+(122, 250, 5, 50, 450, 113, 1, 'False', 'Chansey', 5, 35, 105, '', 'Normal'),
+(123, 65, 55, 60, 435, 114, 1, 'False', 'Tangela', 115, 100, 40, '', 'Grass'),
+(124, 105, 95, 90, 490, 115, 1, 'False', 'Kangaskhan', 80, 40, 80, '', 'Normal'),
+(125, 105, 125, 100, 590, 115, 1, 'False', 'KangaskhanMega Kangaskhan', 100, 60, 100, '', 'Normal'),
+(126, 30, 40, 60, 295, 116, 1, 'False', 'Horsea', 70, 70, 25, '', 'Water'),
+(127, 55, 65, 85, 440, 117, 1, 'False', 'Seadra', 95, 95, 45, '', 'Water'),
+(128, 45, 67, 63, 320, 118, 1, 'False', 'Goldeen', 60, 35, 50, '', 'Water'),
+(129, 80, 92, 68, 450, 119, 1, 'False', 'Seaking', 65, 65, 80, '', 'Water'),
+(130, 30, 45, 85, 340, 120, 1, 'False', 'Staryu', 55, 70, 55, '', 'Water'),
+(131, 60, 75, 115, 520, 121, 1, 'False', 'Starmie', 85, 100, 85, 'Psychic', 'Water'),
+(132, 40, 45, 90, 460, 122, 1, 'False', 'Mr. Mime', 65, 100, 120, 'Fairy', 'Psychic'),
+(133, 70, 110, 105, 500, 123, 1, 'False', 'Scyther', 80, 55, 80, 'Flying', 'Bug'),
+(134, 65, 50, 95, 455, 124, 1, 'False', 'Jynx', 35, 115, 95, 'Psychic', 'Ice'),
+(135, 65, 83, 105, 490, 125, 1, 'False', 'Electabuzz', 57, 95, 85, '', 'Electric'),
+(136, 65, 95, 93, 495, 126, 1, 'False', 'Magmar', 57, 100, 85, '', 'Fire'),
+(137, 65, 125, 85, 500, 127, 1, 'False', 'Pinsir', 100, 55, 70, '', 'Bug'),
+(138, 65, 155, 105, 600, 127, 1, 'False', 'PinsirMega Pinsir', 120, 65, 90, 'Flying', 'Bug'),
+(139, 75, 100, 110, 490, 128, 1, 'False', 'Tauros', 95, 40, 70, '', 'Normal'),
+(140, 20, 10, 80, 200, 129, 1, 'False', 'Magikarp', 55, 15, 20, '', 'Water'),
+(141, 95, 125, 81, 540, 130, 1, 'False', 'Gyarados', 79, 60, 100, 'Flying', 'Water'),
+(142, 95, 155, 81, 640, 130, 1, 'False', 'GyaradosMega Gyarados', 109, 70, 130, 'Dark', 'Water'),
+(143, 130, 85, 60, 535, 131, 1, 'False', 'Lapras', 80, 85, 95, 'Ice', 'Water'),
+(144, 48, 48, 48, 288, 132, 1, 'False', 'Ditto', 48, 48, 48, '', 'Normal'),
+(145, 55, 55, 55, 325, 133, 1, 'False', 'Eevee', 50, 45, 65, '', 'Normal'),
+(146, 130, 65, 65, 525, 134, 1, 'False', 'Vaporeon', 60, 110, 95, '', 'Water'),
+(147, 65, 65, 130, 525, 135, 1, 'False', 'Jolteon', 60, 110, 95, '', 'Electric'),
+(148, 65, 130, 65, 525, 136, 1, 'False', 'Flareon', 60, 95, 110, '', 'Fire'),
+(149, 65, 60, 40, 395, 137, 1, 'False', 'Porygon', 70, 85, 75, '', 'Normal'),
+(150, 35, 40, 35, 355, 138, 1, 'False', 'Omanyte', 100, 90, 55, 'Water', 'Rock'),
+(151, 70, 60, 55, 495, 139, 1, 'False', 'Omastar', 125, 115, 70, 'Water', 'Rock'),
+(152, 30, 80, 55, 355, 140, 1, 'False', 'Kabuto', 90, 55, 45, 'Water', 'Rock'),
+(153, 60, 115, 80, 495, 141, 1, 'False', 'Kabutops', 105, 65, 70, 'Water', 'Rock'),
+(154, 80, 105, 130, 515, 142, 1, 'False', 'Aerodactyl', 65, 60, 75, 'Flying', 'Rock'),
+(155, 80, 135, 150, 615, 142, 1, 'False', 'AerodactylMega Aerodactyl', 85, 70, 95, 'Flying', 'Rock'),
+(156, 160, 110, 30, 540, 143, 1, 'False', 'Snorlax', 65, 65, 110, '', 'Normal'),
+(157, 90, 85, 85, 580, 144, 1, 'True', 'Articuno', 100, 95, 125, 'Flying', 'Ice'),
+(158, 90, 90, 100, 580, 145, 1, 'True', 'Zapdos', 85, 125, 90, 'Flying', 'Electric'),
+(159, 90, 100, 90, 580, 146, 1, 'True', 'Moltres', 90, 125, 85, 'Flying', 'Fire'),
+(160, 41, 64, 50, 300, 147, 1, 'False', 'Dratini', 45, 50, 50, '', 'Dragon'),
+(161, 61, 84, 70, 420, 148, 1, 'False', 'Dragonair', 65, 70, 70, '', 'Dragon'),
+(162, 91, 134, 80, 600, 149, 1, 'False', 'Dragonite', 95, 100, 100, 'Flying', 'Dragon'),
+(163, 106, 110, 130, 680, 150, 1, 'True', 'Mewtwo', 90, 154, 90, '', 'Psychic'),
+(164, 106, 190, 130, 780, 150, 1, 'True', 'MewtwoMega Mewtwo X', 100, 154, 100, 'Fighting', 'Psychic'),
+(165, 106, 150, 140, 780, 150, 1, 'True', 'MewtwoMega Mewtwo Y', 70, 194, 120, '', 'Psychic'),
+(166, 100, 100, 100, 600, 151, 1, 'False', 'Mew', 100, 100, 100, '', 'Psychic'),
+(167, 45, 49, 45, 318, 152, 2, 'False', 'Chikorita', 65, 49, 65, '', 'Grass'),
+(168, 60, 62, 60, 405, 153, 2, 'False', 'Bayleef', 80, 63, 80, '', 'Grass'),
+(169, 80, 82, 80, 525, 154, 2, 'False', 'Meganium', 100, 83, 100, '', 'Grass'),
+(170, 39, 52, 65, 309, 155, 2, 'False', 'Cyndaquil', 43, 60, 50, '', 'Fire'),
+(171, 58, 64, 80, 405, 156, 2, 'False', 'Quilava', 58, 80, 65, '', 'Fire'),
+(172, 78, 84, 100, 534, 157, 2, 'False', 'Typhlosion', 78, 109, 85, '', 'Fire'),
+(173, 50, 65, 43, 314, 158, 2, 'False', 'Totodile', 64, 44, 48, '', 'Water'),
+(174, 65, 80, 58, 405, 159, 2, 'False', 'Croconaw', 80, 59, 63, '', 'Water'),
+(175, 85, 105, 78, 530, 160, 2, 'False', 'Feraligatr', 100, 79, 83, '', 'Water'),
+(176, 35, 46, 20, 215, 161, 2, 'False', 'Sentret', 34, 35, 45, '', 'Normal'),
+(177, 85, 76, 90, 415, 162, 2, 'False', 'Furret', 64, 45, 55, '', 'Normal'),
+(178, 60, 30, 50, 262, 163, 2, 'False', 'Hoothoot', 30, 36, 56, 'Flying', 'Normal'),
+(179, 100, 50, 70, 442, 164, 2, 'False', 'Noctowl', 50, 76, 96, 'Flying', 'Normal'),
+(180, 40, 20, 55, 265, 165, 2, 'False', 'Ledyba', 30, 40, 80, 'Flying', 'Bug'),
+(181, 55, 35, 85, 390, 166, 2, 'False', 'Ledian', 50, 55, 110, 'Flying', 'Bug'),
+(182, 40, 60, 30, 250, 167, 2, 'False', 'Spinarak', 40, 40, 40, 'Poison', 'Bug'),
+(183, 70, 90, 40, 390, 168, 2, 'False', 'Ariados', 70, 60, 60, 'Poison', 'Bug'),
+(184, 85, 90, 130, 535, 169, 2, 'False', 'Crobat', 80, 70, 80, 'Flying', 'Poison'),
+(185, 75, 38, 67, 330, 170, 2, 'False', 'Chinchou', 38, 56, 56, 'Electric', 'Water'),
+(186, 125, 58, 67, 460, 171, 2, 'False', 'Lanturn', 58, 76, 76, 'Electric', 'Water'),
+(187, 20, 40, 60, 205, 172, 2, 'False', 'Pichu', 15, 35, 35, '', 'Electric'),
+(188, 50, 25, 15, 218, 173, 2, 'False', 'Cleffa', 28, 45, 55, '', 'Fairy'),
+(189, 90, 30, 15, 210, 174, 2, 'False', 'Igglybuff', 15, 40, 20, 'Fairy', 'Normal'),
+(190, 35, 20, 20, 245, 175, 2, 'False', 'Togepi', 65, 40, 65, '', 'Fairy'),
+(191, 55, 40, 40, 405, 176, 2, 'False', 'Togetic', 85, 80, 105, 'Flying', 'Fairy'),
+(192, 40, 50, 70, 320, 177, 2, 'False', 'Natu', 45, 70, 45, 'Flying', 'Psychic'),
+(193, 65, 75, 95, 470, 178, 2, 'False', 'Xatu', 70, 95, 70, 'Flying', 'Psychic'),
+(194, 55, 40, 35, 280, 179, 2, 'False', 'Mareep', 40, 65, 45, '', 'Electric'),
+(195, 70, 55, 45, 365, 180, 2, 'False', 'Flaaffy', 55, 80, 60, '', 'Electric'),
+(196, 90, 75, 55, 510, 181, 2, 'False', 'Ampharos', 85, 115, 90, '', 'Electric'),
+(197, 90, 95, 45, 610, 181, 2, 'False', 'AmpharosMega Ampharos', 105, 165, 110, 'Dragon', 'Electric'),
+(198, 75, 80, 50, 490, 182, 2, 'False', 'Bellossom', 95, 90, 100, '', 'Grass'),
+(199, 70, 20, 40, 250, 183, 2, 'False', 'Marill', 50, 20, 50, 'Fairy', 'Water'),
+(200, 100, 50, 50, 420, 184, 2, 'False', 'Azumarill', 80, 60, 80, 'Fairy', 'Water'),
+(201, 70, 100, 30, 410, 185, 2, 'False', 'Sudowoodo', 115, 30, 65, '', 'Rock'),
+(202, 90, 75, 70, 500, 186, 2, 'False', 'Politoed', 75, 90, 100, '', 'Water'),
+(203, 35, 35, 50, 250, 187, 2, 'False', 'Hoppip', 40, 35, 55, 'Flying', 'Grass'),
+(204, 55, 45, 80, 340, 188, 2, 'False', 'Skiploom', 50, 45, 65, 'Flying', 'Grass'),
+(205, 75, 55, 110, 460, 189, 2, 'False', 'Jumpluff', 70, 55, 95, 'Flying', 'Grass'),
+(206, 55, 70, 85, 360, 190, 2, 'False', 'Aipom', 55, 40, 55, '', 'Normal'),
+(207, 30, 30, 30, 180, 191, 2, 'False', 'Sunkern', 30, 30, 30, '', 'Grass'),
+(208, 75, 75, 30, 425, 192, 2, 'False', 'Sunflora', 55, 105, 85, '', 'Grass'),
+(209, 65, 65, 95, 390, 193, 2, 'False', 'Yanma', 45, 75, 45, 'Flying', 'Bug'),
+(210, 55, 45, 15, 210, 194, 2, 'False', 'Wooper', 45, 25, 25, 'Ground', 'Water'),
+(211, 95, 85, 35, 430, 195, 2, 'False', 'Quagsire', 85, 65, 65, 'Ground', 'Water'),
+(212, 65, 65, 110, 525, 196, 2, 'False', 'Espeon', 60, 130, 95, '', 'Psychic'),
+(213, 95, 65, 65, 525, 197, 2, 'False', 'Umbreon', 110, 60, 130, '', 'Dark'),
+(214, 60, 85, 91, 405, 198, 2, 'False', 'Murkrow', 42, 85, 42, 'Flying', 'Dark'),
+(215, 95, 75, 30, 490, 199, 2, 'False', 'Slowking', 80, 100, 110, 'Psychic', 'Water'),
+(216, 60, 60, 85, 435, 200, 2, 'False', 'Misdreavus', 60, 85, 85, '', 'Ghost'),
+(217, 48, 72, 48, 336, 201, 2, 'False', 'Unown', 48, 72, 48, '', 'Psychic'),
+(218, 190, 33, 33, 405, 202, 2, 'False', 'Wobbuffet', 58, 33, 58, '', 'Psychic'),
+(219, 70, 80, 85, 455, 203, 2, 'False', 'Girafarig', 65, 90, 65, 'Psychic', 'Normal'),
+(220, 50, 65, 15, 290, 204, 2, 'False', 'Pineco', 90, 35, 35, '', 'Bug'),
+(221, 75, 90, 40, 465, 205, 2, 'False', 'Forretress', 140, 60, 60, 'Steel', 'Bug'),
+(222, 100, 70, 45, 415, 206, 2, 'False', 'Dunsparce', 70, 65, 65, '', 'Normal'),
+(223, 65, 75, 85, 430, 207, 2, 'False', 'Gligar', 105, 35, 65, 'Flying', 'Ground'),
+(224, 75, 85, 30, 510, 208, 2, 'False', 'Steelix', 200, 55, 65, 'Ground', 'Steel'),
+(225, 75, 125, 30, 610, 208, 2, 'False', 'SteelixMega Steelix', 230, 55, 95, 'Ground', 'Steel'),
+(226, 60, 80, 30, 300, 209, 2, 'False', 'Snubbull', 50, 40, 40, '', 'Fairy'),
+(227, 90, 120, 45, 450, 210, 2, 'False', 'Granbull', 75, 60, 60, '', 'Fairy'),
+(228, 65, 95, 85, 430, 211, 2, 'False', 'Qwilfish', 75, 55, 55, 'Poison', 'Water'),
+(229, 70, 130, 65, 500, 212, 2, 'False', 'Scizor', 100, 55, 80, 'Steel', 'Bug'),
+(230, 70, 150, 75, 600, 212, 2, 'False', 'ScizorMega Scizor', 140, 65, 100, 'Steel', 'Bug'),
+(231, 20, 10, 5, 505, 213, 2, 'False', 'Shuckle', 230, 10, 230, 'Rock', 'Bug'),
+(232, 80, 125, 85, 500, 214, 2, 'False', 'Heracross', 75, 40, 95, 'Fighting', 'Bug'),
+(233, 80, 185, 75, 600, 214, 2, 'False', 'HeracrossMega Heracross', 115, 40, 105, 'Fighting', 'Bug'),
+(234, 55, 95, 115, 430, 215, 2, 'False', 'Sneasel', 55, 35, 75, 'Ice', 'Dark'),
+(235, 60, 80, 40, 330, 216, 2, 'False', 'Teddiursa', 50, 50, 50, '', 'Normal'),
+(236, 90, 130, 55, 500, 217, 2, 'False', 'Ursaring', 75, 75, 75, '', 'Normal'),
+(237, 40, 40, 20, 250, 218, 2, 'False', 'Slugma', 40, 70, 40, '', 'Fire'),
+(238, 50, 50, 30, 410, 219, 2, 'False', 'Magcargo', 120, 80, 80, 'Rock', 'Fire'),
+(239, 50, 50, 50, 250, 220, 2, 'False', 'Swinub', 40, 30, 30, 'Ground', 'Ice'),
+(240, 100, 100, 50, 450, 221, 2, 'False', 'Piloswine', 80, 60, 60, 'Ground', 'Ice'),
+(241, 55, 55, 35, 380, 222, 2, 'False', 'Corsola', 85, 65, 85, 'Rock', 'Water'),
+(242, 35, 65, 65, 300, 223, 2, 'False', 'Remoraid', 35, 65, 35, '', 'Water'),
+(243, 75, 105, 45, 480, 224, 2, 'False', 'Octillery', 75, 105, 75, '', 'Water'),
+(244, 45, 55, 75, 330, 225, 2, 'False', 'Delibird', 45, 65, 45, 'Flying', 'Ice'),
+(245, 65, 40, 70, 465, 226, 2, 'False', 'Mantine', 70, 80, 140, 'Flying', 'Water'),
+(246, 65, 80, 70, 465, 227, 2, 'False', 'Skarmory', 140, 40, 70, 'Flying', 'Steel'),
+(247, 45, 60, 65, 330, 228, 2, 'False', 'Houndour', 30, 80, 50, 'Fire', 'Dark'),
+(248, 75, 90, 95, 500, 229, 2, 'False', 'Houndoom', 50, 110, 80, 'Fire', 'Dark'),
+(249, 75, 90, 115, 600, 229, 2, 'False', 'HoundoomMega Houndoom', 90, 140, 90, 'Fire', 'Dark'),
+(250, 75, 95, 85, 540, 230, 2, 'False', 'Kingdra', 95, 95, 95, 'Dragon', 'Water'),
+(251, 90, 60, 40, 330, 231, 2, 'False', 'Phanpy', 60, 40, 40, '', 'Ground'),
+(252, 90, 120, 50, 500, 232, 2, 'False', 'Donphan', 120, 60, 60, '', 'Ground'),
+(253, 85, 80, 60, 515, 233, 2, 'False', 'Porygon2', 90, 105, 95, '', 'Normal'),
+(254, 73, 95, 85, 465, 234, 2, 'False', 'Stantler', 62, 85, 65, '', 'Normal'),
+(255, 55, 20, 75, 250, 235, 2, 'False', 'Smeargle', 35, 20, 45, '', 'Normal'),
+(256, 35, 35, 35, 210, 236, 2, 'False', 'Tyrogue', 35, 35, 35, '', 'Fighting'),
+(257, 50, 95, 70, 455, 237, 2, 'False', 'Hitmontop', 95, 35, 110, '', 'Fighting'),
+(258, 45, 30, 65, 305, 238, 2, 'False', 'Smoochum', 15, 85, 65, 'Psychic', 'Ice'),
+(259, 45, 63, 95, 360, 239, 2, 'False', 'Elekid', 37, 65, 55, '', 'Electric'),
+(260, 45, 75, 83, 365, 240, 2, 'False', 'Magby', 37, 70, 55, '', 'Fire'),
+(261, 95, 80, 100, 490, 241, 2, 'False', 'Miltank', 105, 40, 70, '', 'Normal'),
+(262, 255, 10, 55, 540, 242, 2, 'False', 'Blissey', 10, 75, 135, '', 'Normal'),
+(263, 90, 85, 115, 580, 243, 2, 'True', 'Raikou', 75, 115, 100, '', 'Electric'),
+(264, 115, 115, 100, 580, 244, 2, 'True', 'Entei', 85, 90, 75, '', 'Fire'),
+(265, 100, 75, 85, 580, 245, 2, 'True', 'Suicune', 115, 90, 115, '', 'Water'),
+(266, 50, 64, 41, 300, 246, 2, 'False', 'Larvitar', 50, 45, 50, 'Ground', 'Rock'),
+(267, 70, 84, 51, 410, 247, 2, 'False', 'Pupitar', 70, 65, 70, 'Ground', 'Rock'),
+(268, 100, 134, 61, 600, 248, 2, 'False', 'Tyranitar', 110, 95, 100, 'Dark', 'Rock'),
+(269, 100, 164, 71, 700, 248, 2, 'False', 'TyranitarMega Tyranitar', 150, 95, 120, 'Dark', 'Rock'),
+(270, 106, 90, 110, 680, 249, 2, 'True', 'Lugia', 130, 90, 154, 'Flying', 'Psychic'),
+(271, 106, 130, 90, 680, 250, 2, 'True', 'Ho-oh', 90, 110, 154, 'Flying', 'Fire'),
+(272, 100, 100, 100, 600, 251, 2, 'False', 'Celebi', 100, 100, 100, 'Grass', 'Psychic'),
+(273, 40, 45, 70, 310, 252, 3, 'False', 'Treecko', 35, 65, 55, '', 'Grass'),
+(274, 50, 65, 95, 405, 253, 3, 'False', 'Grovyle', 45, 85, 65, '', 'Grass'),
+(275, 70, 85, 120, 530, 254, 3, 'False', 'Sceptile', 65, 105, 85, '', 'Grass'),
+(276, 70, 110, 145, 630, 254, 3, 'False', 'SceptileMega Sceptile', 75, 145, 85, 'Dragon', 'Grass'),
+(277, 45, 60, 45, 310, 255, 3, 'False', 'Torchic', 40, 70, 50, '', 'Fire'),
+(278, 60, 85, 55, 405, 256, 3, 'False', 'Combusken', 60, 85, 60, 'Fighting', 'Fire'),
+(279, 80, 120, 80, 530, 257, 3, 'False', 'Blaziken', 70, 110, 70, 'Fighting', 'Fire'),
+(280, 80, 160, 100, 630, 257, 3, 'False', 'BlazikenMega Blaziken', 80, 130, 80, 'Fighting', 'Fire'),
+(281, 50, 70, 40, 310, 258, 3, 'False', 'Mudkip', 50, 50, 50, '', 'Water'),
+(282, 70, 85, 50, 405, 259, 3, 'False', 'Marshtomp', 70, 60, 70, 'Ground', 'Water'),
+(283, 100, 110, 60, 535, 260, 3, 'False', 'Swampert', 90, 85, 90, 'Ground', 'Water'),
+(284, 100, 150, 70, 635, 260, 3, 'False', 'SwampertMega Swampert', 110, 95, 110, 'Ground', 'Water'),
+(285, 35, 55, 35, 220, 261, 3, 'False', 'Poochyena', 35, 30, 30, '', 'Dark'),
+(286, 70, 90, 70, 420, 262, 3, 'False', 'Mightyena', 70, 60, 60, '', 'Dark'),
+(287, 38, 30, 60, 240, 263, 3, 'False', 'Zigzagoon', 41, 30, 41, '', 'Normal'),
+(288, 78, 70, 100, 420, 264, 3, 'False', 'Linoone', 61, 50, 61, '', 'Normal'),
+(289, 45, 45, 20, 195, 265, 3, 'False', 'Wurmple', 35, 20, 30, '', 'Bug'),
+(290, 50, 35, 15, 205, 266, 3, 'False', 'Silcoon', 55, 25, 25, '', 'Bug'),
+(291, 60, 70, 65, 395, 267, 3, 'False', 'Beautifly', 50, 100, 50, 'Flying', 'Bug'),
+(292, 50, 35, 15, 205, 268, 3, 'False', 'Cascoon', 55, 25, 25, '', 'Bug'),
+(293, 60, 50, 65, 385, 269, 3, 'False', 'Dustox', 70, 50, 90, 'Poison', 'Bug'),
+(294, 40, 30, 30, 220, 270, 3, 'False', 'Lotad', 30, 40, 50, 'Grass', 'Water'),
+(295, 60, 50, 50, 340, 271, 3, 'False', 'Lombre', 50, 60, 70, 'Grass', 'Water'),
+(296, 80, 70, 70, 480, 272, 3, 'False', 'Ludicolo', 70, 90, 100, 'Grass', 'Water'),
+(297, 40, 40, 30, 220, 273, 3, 'False', 'Seedot', 50, 30, 30, '', 'Grass'),
+(298, 70, 70, 60, 340, 274, 3, 'False', 'Nuzleaf', 40, 60, 40, 'Dark', 'Grass'),
+(299, 90, 100, 80, 480, 275, 3, 'False', 'Shiftry', 60, 90, 60, 'Dark', 'Grass'),
+(300, 40, 55, 85, 270, 276, 3, 'False', 'Taillow', 30, 30, 30, 'Flying', 'Normal'),
+(301, 60, 85, 125, 430, 277, 3, 'False', 'Swellow', 60, 50, 50, 'Flying', 'Normal'),
+(302, 40, 30, 85, 270, 278, 3, 'False', 'Wingull', 30, 55, 30, 'Flying', 'Water'),
+(303, 60, 50, 65, 430, 279, 3, 'False', 'Pelipper', 100, 85, 70, 'Flying', 'Water'),
+(304, 28, 25, 40, 198, 280, 3, 'False', 'Ralts', 25, 45, 35, 'Fairy', 'Psychic'),
+(305, 38, 35, 50, 278, 281, 3, 'False', 'Kirlia', 35, 65, 55, 'Fairy', 'Psychic'),
+(306, 68, 65, 80, 518, 282, 3, 'False', 'Gardevoir', 65, 125, 115, 'Fairy', 'Psychic'),
+(307, 68, 85, 100, 618, 282, 3, 'False', 'GardevoirMega Gardevoir', 65, 165, 135, 'Fairy', 'Psychic'),
+(308, 40, 30, 65, 269, 283, 3, 'False', 'Surskit', 32, 50, 52, 'Water', 'Bug'),
+(309, 70, 60, 60, 414, 284, 3, 'False', 'Masquerain', 62, 80, 82, 'Flying', 'Bug'),
+(310, 60, 40, 35, 295, 285, 3, 'False', 'Shroomish', 60, 40, 60, '', 'Grass'),
+(311, 60, 130, 70, 460, 286, 3, 'False', 'Breloom', 80, 60, 60, 'Fighting', 'Grass'),
+(312, 60, 60, 30, 280, 287, 3, 'False', 'Slakoth', 60, 35, 35, '', 'Normal'),
+(313, 80, 80, 90, 440, 288, 3, 'False', 'Vigoroth', 80, 55, 55, '', 'Normal'),
+(314, 150, 160, 100, 670, 289, 3, 'False', 'Slaking', 100, 95, 65, '', 'Normal'),
+(315, 31, 45, 40, 266, 290, 3, 'False', 'Nincada', 90, 30, 30, 'Ground', 'Bug'),
+(316, 61, 90, 160, 456, 291, 3, 'False', 'Ninjask', 45, 50, 50, 'Flying', 'Bug'),
+(317, 1, 90, 40, 236, 292, 3, 'False', 'Shedinja', 45, 30, 30, 'Ghost', 'Bug'),
+(318, 64, 51, 28, 240, 293, 3, 'False', 'Whismur', 23, 51, 23, '', 'Normal'),
+(319, 84, 71, 48, 360, 294, 3, 'False', 'Loudred', 43, 71, 43, '', 'Normal'),
+(320, 104, 91, 68, 490, 295, 3, 'False', 'Exploud', 63, 91, 73, '', 'Normal'),
+(321, 72, 60, 25, 237, 296, 3, 'False', 'Makuhita', 30, 20, 30, '', 'Fighting'),
+(322, 144, 120, 50, 474, 297, 3, 'False', 'Hariyama', 60, 40, 60, '', 'Fighting'),
+(323, 50, 20, 20, 190, 298, 3, 'False', 'Azurill', 40, 20, 40, 'Fairy', 'Normal'),
+(324, 30, 45, 30, 375, 299, 3, 'False', 'Nosepass', 135, 45, 90, '', 'Rock'),
+(325, 50, 45, 50, 260, 300, 3, 'False', 'Skitty', 45, 35, 35, '', 'Normal'),
+(326, 70, 65, 70, 380, 301, 3, 'False', 'Delcatty', 65, 55, 55, '', 'Normal'),
+(327, 50, 75, 50, 380, 302, 3, 'False', 'Sableye', 75, 65, 65, 'Ghost', 'Dark'),
+(328, 50, 85, 20, 480, 302, 3, 'False', 'SableyeMega Sableye', 125, 85, 115, 'Ghost', 'Dark'),
+(329, 50, 85, 50, 380, 303, 3, 'False', 'Mawile', 85, 55, 55, 'Fairy', 'Steel'),
+(330, 50, 105, 50, 480, 303, 3, 'False', 'MawileMega Mawile', 125, 55, 95, 'Fairy', 'Steel'),
+(331, 50, 70, 30, 330, 304, 3, 'False', 'Aron', 100, 40, 40, 'Rock', 'Steel'),
+(332, 60, 90, 40, 430, 305, 3, 'False', 'Lairon', 140, 50, 50, 'Rock', 'Steel'),
+(333, 70, 110, 50, 530, 306, 3, 'False', 'Aggron', 180, 60, 60, 'Rock', 'Steel'),
+(334, 70, 140, 50, 630, 306, 3, 'False', 'AggronMega Aggron', 230, 60, 80, '', 'Steel'),
+(335, 30, 40, 60, 280, 307, 3, 'False', 'Meditite', 55, 40, 55, 'Psychic', 'Fighting'),
+(336, 60, 60, 80, 410, 308, 3, 'False', 'Medicham', 75, 60, 75, 'Psychic', 'Fighting'),
+(337, 60, 100, 100, 510, 308, 3, 'False', 'MedichamMega Medicham', 85, 80, 85, 'Psychic', 'Fighting'),
+(338, 40, 45, 65, 295, 309, 3, 'False', 'Electrike', 40, 65, 40, '', 'Electric'),
+(339, 70, 75, 105, 475, 310, 3, 'False', 'Manectric', 60, 105, 60, '', 'Electric'),
+(340, 70, 75, 135, 575, 310, 3, 'False', 'ManectricMega Manectric', 80, 135, 80, '', 'Electric'),
+(341, 60, 50, 95, 405, 311, 3, 'False', 'Plusle', 40, 85, 75, '', 'Electric'),
+(342, 60, 40, 95, 405, 312, 3, 'False', 'Minun', 50, 75, 85, '', 'Electric'),
+(343, 65, 73, 85, 400, 313, 3, 'False', 'Volbeat', 55, 47, 75, '', 'Bug'),
+(344, 65, 47, 85, 400, 314, 3, 'False', 'Illumise', 55, 73, 75, '', 'Bug'),
+(345, 50, 60, 65, 400, 315, 3, 'False', 'Roselia', 45, 100, 80, 'Poison', 'Grass'),
+(346, 70, 43, 40, 302, 316, 3, 'False', 'Gulpin', 53, 43, 53, '', 'Poison'),
+(347, 100, 73, 55, 467, 317, 3, 'False', 'Swalot', 83, 73, 83, '', 'Poison'),
+(348, 45, 90, 65, 305, 318, 3, 'False', 'Carvanha', 20, 65, 20, 'Dark', 'Water'),
+(349, 70, 120, 95, 460, 319, 3, 'False', 'Sharpedo', 40, 95, 40, 'Dark', 'Water'),
+(350, 70, 140, 105, 560, 319, 3, 'False', 'SharpedoMega Sharpedo', 70, 110, 65, 'Dark', 'Water'),
+(351, 130, 70, 60, 400, 320, 3, 'False', 'Wailmer', 35, 70, 35, '', 'Water'),
+(352, 170, 90, 60, 500, 321, 3, 'False', 'Wailord', 45, 90, 45, '', 'Water'),
+(353, 60, 60, 35, 305, 322, 3, 'False', 'Numel', 40, 65, 45, 'Ground', 'Fire'),
+(354, 70, 100, 40, 460, 323, 3, 'False', 'Camerupt', 70, 105, 75, 'Ground', 'Fire'),
+(355, 70, 120, 20, 560, 323, 3, 'False', 'CameruptMega Camerupt', 100, 145, 105, 'Ground', 'Fire'),
+(356, 70, 85, 20, 470, 324, 3, 'False', 'Torkoal', 140, 85, 70, '', 'Fire'),
+(357, 60, 25, 60, 330, 325, 3, 'False', 'Spoink', 35, 70, 80, '', 'Psychic'),
+(358, 80, 45, 80, 470, 326, 3, 'False', 'Grumpig', 65, 90, 110, '', 'Psychic'),
+(359, 60, 60, 60, 360, 327, 3, 'False', 'Spinda', 60, 60, 60, '', 'Normal'),
+(360, 45, 100, 10, 290, 328, 3, 'False', 'Trapinch', 45, 45, 45, '', 'Ground'),
+(361, 50, 70, 70, 340, 329, 3, 'False', 'Vibrava', 50, 50, 50, 'Dragon', 'Ground'),
+(362, 80, 100, 100, 520, 330, 3, 'False', 'Flygon', 80, 80, 80, 'Dragon', 'Ground'),
+(363, 50, 85, 35, 335, 331, 3, 'False', 'Cacnea', 40, 85, 40, '', 'Grass'),
+(364, 70, 115, 55, 475, 332, 3, 'False', 'Cacturne', 60, 115, 60, 'Dark', 'Grass'),
+(365, 45, 40, 50, 310, 333, 3, 'False', 'Swablu', 60, 40, 75, 'Flying', 'Normal'),
+(366, 75, 70, 80, 490, 334, 3, 'False', 'Altaria', 90, 70, 105, 'Flying', 'Dragon'),
+(367, 75, 110, 80, 590, 334, 3, 'False', 'AltariaMega Altaria', 110, 110, 105, 'Fairy', 'Dragon'),
+(368, 73, 115, 90, 458, 335, 3, 'False', 'Zangoose', 60, 60, 60, '', 'Normal'),
+(369, 73, 100, 65, 458, 336, 3, 'False', 'Seviper', 60, 100, 60, '', 'Poison'),
+(370, 70, 55, 70, 440, 337, 3, 'False', 'Lunatone', 65, 95, 85, 'Psychic', 'Rock'),
+(371, 70, 95, 70, 440, 338, 3, 'False', 'Solrock', 85, 55, 65, 'Psychic', 'Rock'),
+(372, 50, 48, 60, 288, 339, 3, 'False', 'Barboach', 43, 46, 41, 'Ground', 'Water'),
+(373, 110, 78, 60, 468, 340, 3, 'False', 'Whiscash', 73, 76, 71, 'Ground', 'Water'),
+(374, 43, 80, 35, 308, 341, 3, 'False', 'Corphish', 65, 50, 35, '', 'Water'),
+(375, 63, 120, 55, 468, 342, 3, 'False', 'Crawdaunt', 85, 90, 55, 'Dark', 'Water'),
+(376, 40, 40, 55, 300, 343, 3, 'False', 'Baltoy', 55, 40, 70, 'Psychic', 'Ground'),
+(377, 60, 70, 75, 500, 344, 3, 'False', 'Claydol', 105, 70, 120, 'Psychic', 'Ground'),
+(378, 66, 41, 23, 355, 345, 3, 'False', 'Lileep', 77, 61, 87, 'Grass', 'Rock'),
+(379, 86, 81, 43, 495, 346, 3, 'False', 'Cradily', 97, 81, 107, 'Grass', 'Rock'),
+(380, 45, 95, 75, 355, 347, 3, 'False', 'Anorith', 50, 40, 50, 'Bug', 'Rock'),
+(381, 75, 125, 45, 495, 348, 3, 'False', 'Armaldo', 100, 70, 80, 'Bug', 'Rock'),
+(382, 20, 15, 80, 200, 349, 3, 'False', 'Feebas', 20, 10, 55, '', 'Water'),
+(383, 95, 60, 81, 540, 350, 3, 'False', 'Milotic', 79, 100, 125, '', 'Water'),
+(384, 70, 70, 70, 420, 351, 3, 'False', 'Castform', 70, 70, 70, '', 'Normal'),
+(385, 60, 90, 40, 440, 352, 3, 'False', 'Kecleon', 70, 60, 120, '', 'Normal'),
+(386, 44, 75, 45, 295, 353, 3, 'False', 'Shuppet', 35, 63, 33, '', 'Ghost'),
+(387, 64, 115, 65, 455, 354, 3, 'False', 'Banette', 65, 83, 63, '', 'Ghost'),
+(388, 64, 165, 75, 555, 354, 3, 'False', 'BanetteMega Banette', 75, 93, 83, '', 'Ghost'),
+(389, 20, 40, 25, 295, 355, 3, 'False', 'Duskull', 90, 30, 90, '', 'Ghost'),
+(390, 40, 70, 25, 455, 356, 3, 'False', 'Dusclops', 130, 60, 130, '', 'Ghost'),
+(391, 99, 68, 51, 460, 357, 3, 'False', 'Tropius', 83, 72, 87, 'Flying', 'Grass'),
+(392, 65, 50, 65, 425, 358, 3, 'False', 'Chimecho', 70, 95, 80, '', 'Psychic'),
+(393, 65, 130, 75, 465, 359, 3, 'False', 'Absol', 60, 75, 60, '', 'Dark'),
+(394, 65, 150, 115, 565, 359, 3, 'False', 'AbsolMega Absol', 60, 115, 60, '', 'Dark'),
+(395, 95, 23, 23, 260, 360, 3, 'False', 'Wynaut', 48, 23, 48, '', 'Psychic'),
+(396, 50, 50, 50, 300, 361, 3, 'False', 'Snorunt', 50, 50, 50, '', 'Ice'),
+(397, 80, 80, 80, 480, 362, 3, 'False', 'Glalie', 80, 80, 80, '', 'Ice'),
+(398, 80, 120, 100, 580, 362, 3, 'False', 'GlalieMega Glalie', 80, 120, 80, '', 'Ice'),
+(399, 70, 40, 25, 290, 363, 3, 'False', 'Spheal', 50, 55, 50, 'Water', 'Ice'),
+(400, 90, 60, 45, 410, 364, 3, 'False', 'Sealeo', 70, 75, 70, 'Water', 'Ice'),
+(401, 110, 80, 65, 530, 365, 3, 'False', 'Walrein', 90, 95, 90, 'Water', 'Ice'),
+(402, 35, 64, 32, 345, 366, 3, 'False', 'Clamperl', 85, 74, 55, '', 'Water'),
+(403, 55, 104, 52, 485, 367, 3, 'False', 'Huntail', 105, 94, 75, '', 'Water'),
+(404, 55, 84, 52, 485, 368, 3, 'False', 'Gorebyss', 105, 114, 75, '', 'Water'),
+(405, 100, 90, 55, 485, 369, 3, 'False', 'Relicanth', 130, 45, 65, 'Rock', 'Water'),
+(406, 43, 30, 97, 330, 370, 3, 'False', 'Luvdisc', 55, 40, 65, '', 'Water'),
+(407, 45, 75, 50, 300, 371, 3, 'False', 'Bagon', 60, 40, 30, '', 'Dragon'),
+(408, 65, 95, 50, 420, 372, 3, 'False', 'Shelgon', 100, 60, 50, '', 'Dragon'),
+(409, 95, 135, 100, 600, 373, 3, 'False', 'Salamence', 80, 110, 80, 'Flying', 'Dragon'),
+(410, 95, 145, 120, 700, 373, 3, 'False', 'SalamenceMega Salamence', 130, 120, 90, 'Flying', 'Dragon'),
+(411, 40, 55, 30, 300, 374, 3, 'False', 'Beldum', 80, 35, 60, 'Psychic', 'Steel'),
+(412, 60, 75, 50, 420, 375, 3, 'False', 'Metang', 100, 55, 80, 'Psychic', 'Steel'),
+(413, 80, 135, 70, 600, 376, 3, 'False', 'Metagross', 130, 95, 90, 'Psychic', 'Steel'),
+(414, 80, 145, 110, 700, 376, 3, 'False', 'MetagrossMega Metagross', 150, 105, 110, 'Psychic', 'Steel'),
+(415, 80, 100, 50, 580, 377, 3, 'True', 'Regirock', 200, 50, 100, '', 'Rock'),
+(416, 80, 50, 50, 580, 378, 3, 'True', 'Regice', 100, 100, 200, '', 'Ice'),
+(417, 80, 75, 50, 580, 379, 3, 'True', 'Registeel', 150, 75, 150, '', 'Steel'),
+(418, 80, 80, 110, 600, 380, 3, 'True', 'Latias', 90, 110, 130, 'Psychic', 'Dragon'),
+(419, 80, 100, 110, 700, 380, 3, 'True', 'LatiasMega Latias', 120, 140, 150, 'Psychic', 'Dragon'),
+(420, 80, 90, 110, 600, 381, 3, 'True', 'Latios', 80, 130, 110, 'Psychic', 'Dragon'),
+(421, 80, 130, 110, 700, 381, 3, 'True', 'LatiosMega Latios', 100, 160, 120, 'Psychic', 'Dragon'),
+(422, 100, 100, 90, 670, 382, 3, 'True', 'Kyogre', 90, 150, 140, '', 'Water'),
+(423, 100, 150, 90, 770, 382, 3, 'True', 'KyogrePrimal Kyogre', 90, 180, 160, '', 'Water'),
+(424, 100, 150, 90, 670, 383, 3, 'True', 'Groudon', 140, 100, 90, '', 'Ground'),
+(425, 100, 180, 90, 770, 383, 3, 'True', 'GroudonPrimal Groudon', 160, 150, 90, 'Fire', 'Ground'),
+(426, 105, 150, 95, 680, 384, 3, 'True', 'Rayquaza', 90, 150, 90, 'Flying', 'Dragon'),
+(427, 105, 180, 115, 780, 384, 3, 'True', 'RayquazaMega Rayquaza', 100, 180, 100, 'Flying', 'Dragon'),
+(428, 100, 100, 100, 600, 385, 3, 'True', 'Jirachi', 100, 100, 100, 'Psychic', 'Steel'),
+(429, 50, 150, 150, 600, 386, 3, 'True', 'DeoxysNormal Forme', 50, 150, 50, '', 'Psychic'),
+(430, 50, 180, 150, 600, 386, 3, 'True', 'DeoxysAttack Forme', 20, 180, 20, '', 'Psychic'),
+(431, 50, 70, 90, 600, 386, 3, 'True', 'DeoxysDefense Forme', 160, 70, 160, '', 'Psychic'),
+(432, 50, 95, 180, 600, 386, 3, 'True', 'DeoxysSpeed Forme', 90, 95, 90, '', 'Psychic'),
+(433, 55, 68, 31, 318, 387, 4, 'False', 'Turtwig', 64, 45, 55, '', 'Grass'),
+(434, 75, 89, 36, 405, 388, 4, 'False', 'Grotle', 85, 55, 65, '', 'Grass'),
+(435, 95, 109, 56, 525, 389, 4, 'False', 'Torterra', 105, 75, 85, 'Ground', 'Grass'),
+(436, 44, 58, 61, 309, 390, 4, 'False', 'Chimchar', 44, 58, 44, '', 'Fire'),
+(437, 64, 78, 81, 405, 391, 4, 'False', 'Monferno', 52, 78, 52, 'Fighting', 'Fire'),
+(438, 76, 104, 108, 534, 392, 4, 'False', 'Infernape', 71, 104, 71, 'Fighting', 'Fire'),
+(439, 53, 51, 40, 314, 393, 4, 'False', 'Piplup', 53, 61, 56, '', 'Water'),
+(440, 64, 66, 50, 405, 394, 4, 'False', 'Prinplup', 68, 81, 76, '', 'Water'),
+(441, 84, 86, 60, 530, 395, 4, 'False', 'Empoleon', 88, 111, 101, 'Steel', 'Water'),
+(442, 40, 55, 60, 245, 396, 4, 'False', 'Starly', 30, 30, 30, 'Flying', 'Normal'),
+(443, 55, 75, 80, 340, 397, 4, 'False', 'Staravia', 50, 40, 40, 'Flying', 'Normal'),
+(444, 85, 120, 100, 485, 398, 4, 'False', 'Staraptor', 70, 50, 60, 'Flying', 'Normal'),
+(445, 59, 45, 31, 250, 399, 4, 'False', 'Bidoof', 40, 35, 40, '', 'Normal'),
+(446, 79, 85, 71, 410, 400, 4, 'False', 'Bibarel', 60, 55, 60, 'Water', 'Normal'),
+(447, 37, 25, 25, 194, 401, 4, 'False', 'Kricketot', 41, 25, 41, '', 'Bug'),
+(448, 77, 85, 65, 384, 402, 4, 'False', 'Kricketune', 51, 55, 51, '', 'Bug'),
+(449, 45, 65, 45, 263, 403, 4, 'False', 'Shinx', 34, 40, 34, '', 'Electric'),
+(450, 60, 85, 60, 363, 404, 4, 'False', 'Luxio', 49, 60, 49, '', 'Electric'),
+(451, 80, 120, 70, 523, 405, 4, 'False', 'Luxray', 79, 95, 79, '', 'Electric'),
+(452, 40, 30, 55, 280, 406, 4, 'False', 'Budew', 35, 50, 70, 'Poison', 'Grass'),
+(453, 60, 70, 90, 515, 407, 4, 'False', 'Roserade', 65, 125, 105, 'Poison', 'Grass'),
+(454, 67, 125, 58, 350, 408, 4, 'False', 'Cranidos', 40, 30, 30, '', 'Rock'),
+(455, 97, 165, 58, 495, 409, 4, 'False', 'Rampardos', 60, 65, 50, '', 'Rock'),
+(456, 30, 42, 30, 350, 410, 4, 'False', 'Shieldon', 118, 42, 88, 'Steel', 'Rock'),
+(457, 60, 52, 30, 495, 411, 4, 'False', 'Bastiodon', 168, 47, 138, 'Steel', 'Rock'),
+(458, 40, 29, 36, 224, 412, 4, 'False', 'Burmy', 45, 29, 45, '', 'Bug'),
+(459, 60, 59, 36, 424, 413, 4, 'False', 'WormadamPlant Cloak', 85, 79, 105, 'Grass', 'Bug'),
+(460, 60, 79, 36, 424, 413, 4, 'False', 'WormadamSandy Cloak', 105, 59, 85, 'Ground', 'Bug'),
+(461, 60, 69, 36, 424, 413, 4, 'False', 'WormadamTrash Cloak', 95, 69, 95, 'Steel', 'Bug'),
+(462, 70, 94, 66, 424, 414, 4, 'False', 'Mothim', 50, 94, 50, 'Flying', 'Bug'),
+(463, 30, 30, 70, 244, 415, 4, 'False', 'Combee', 42, 30, 42, 'Flying', 'Bug'),
+(464, 70, 80, 40, 474, 416, 4, 'False', 'Vespiquen', 102, 80, 102, 'Flying', 'Bug'),
+(465, 60, 45, 95, 405, 417, 4, 'False', 'Pachirisu', 70, 45, 90, '', 'Electric'),
+(466, 55, 65, 85, 330, 418, 4, 'False', 'Buizel', 35, 60, 30, '', 'Water'),
+(467, 85, 105, 115, 495, 419, 4, 'False', 'Floatzel', 55, 85, 50, '', 'Water'),
+(468, 45, 35, 35, 275, 420, 4, 'False', 'Cherubi', 45, 62, 53, '', 'Grass'),
+(469, 70, 60, 85, 450, 421, 4, 'False', 'Cherrim', 70, 87, 78, '', 'Grass'),
+(470, 76, 48, 34, 325, 422, 4, 'False', 'Shellos', 48, 57, 62, '', 'Water'),
+(471, 111, 83, 39, 475, 423, 4, 'False', 'Gastrodon', 68, 92, 82, 'Ground', 'Water'),
+(472, 75, 100, 115, 482, 424, 4, 'False', 'Ambipom', 66, 60, 66, '', 'Normal'),
+(473, 90, 50, 70, 348, 425, 4, 'False', 'Drifloon', 34, 60, 44, 'Flying', 'Ghost'),
+(474, 150, 80, 80, 498, 426, 4, 'False', 'Drifblim', 44, 90, 54, 'Flying', 'Ghost'),
+(475, 55, 66, 85, 350, 427, 4, 'False', 'Buneary', 44, 44, 56, '', 'Normal'),
+(476, 65, 76, 105, 480, 428, 4, 'False', 'Lopunny', 84, 54, 96, '', 'Normal'),
+(477, 65, 136, 135, 580, 428, 4, 'False', 'LopunnyMega Lopunny', 94, 54, 96, 'Fighting', 'Normal'),
+(478, 60, 60, 105, 495, 429, 4, 'False', 'Mismagius', 60, 105, 105, '', 'Ghost'),
+(479, 100, 125, 71, 505, 430, 4, 'False', 'Honchkrow', 52, 105, 52, 'Flying', 'Dark'),
+(480, 49, 55, 85, 310, 431, 4, 'False', 'Glameow', 42, 42, 37, '', 'Normal'),
+(481, 71, 82, 112, 452, 432, 4, 'False', 'Purugly', 64, 64, 59, '', 'Normal'),
+(482, 45, 30, 45, 285, 433, 4, 'False', 'Chingling', 50, 65, 50, '', 'Psychic'),
+(483, 63, 63, 74, 329, 434, 4, 'False', 'Stunky', 47, 41, 41, 'Dark', 'Poison'),
+(484, 103, 93, 84, 479, 435, 4, 'False', 'Skuntank', 67, 71, 61, 'Dark', 'Poison'),
+(485, 57, 24, 23, 300, 436, 4, 'False', 'Bronzor', 86, 24, 86, 'Psychic', 'Steel'),
+(486, 67, 89, 33, 500, 437, 4, 'False', 'Bronzong', 116, 79, 116, 'Psychic', 'Steel'),
+(487, 50, 80, 10, 290, 438, 4, 'False', 'Bonsly', 95, 10, 45, '', 'Rock'),
+(488, 20, 25, 60, 310, 439, 4, 'False', 'Mime Jr.', 45, 70, 90, 'Fairy', 'Psychic'),
+(489, 100, 5, 30, 220, 440, 4, 'False', 'Happiny', 5, 15, 65, '', 'Normal'),
+(490, 76, 65, 91, 411, 441, 4, 'False', 'Chatot', 45, 92, 42, 'Flying', 'Normal'),
+(491, 50, 92, 35, 485, 442, 4, 'False', 'Spiritomb', 108, 92, 108, 'Dark', 'Ghost'),
+(492, 58, 70, 42, 300, 443, 4, 'False', 'Gible', 45, 40, 45, 'Ground', 'Dragon'),
+(493, 68, 90, 82, 410, 444, 4, 'False', 'Gabite', 65, 50, 55, 'Ground', 'Dragon'),
+(494, 108, 130, 102, 600, 445, 4, 'False', 'Garchomp', 95, 80, 85, 'Ground', 'Dragon'),
+(495, 108, 170, 92, 700, 445, 4, 'False', 'GarchompMega Garchomp', 115, 120, 95, 'Ground', 'Dragon'),
+(496, 135, 85, 5, 390, 446, 4, 'False', 'Munchlax', 40, 40, 85, '', 'Normal'),
+(497, 40, 70, 60, 285, 447, 4, 'False', 'Riolu', 40, 35, 40, '', 'Fighting'),
+(498, 70, 110, 90, 525, 448, 4, 'False', 'Lucario', 70, 115, 70, 'Steel', 'Fighting'),
+(499, 70, 145, 112, 625, 448, 4, 'False', 'LucarioMega Lucario', 88, 140, 70, 'Steel', 'Fighting'),
+(500, 68, 72, 32, 330, 449, 4, 'False', 'Hippopotas', 78, 38, 42, '', 'Ground'),
+(501, 108, 112, 47, 525, 450, 4, 'False', 'Hippowdon', 118, 68, 72, '', 'Ground'),
+(502, 40, 50, 65, 330, 451, 4, 'False', 'Skorupi', 90, 30, 55, 'Bug', 'Poison'),
+(503, 70, 90, 95, 500, 452, 4, 'False', 'Drapion', 110, 60, 75, 'Dark', 'Poison'),
+(504, 48, 61, 50, 300, 453, 4, 'False', 'Croagunk', 40, 61, 40, 'Fighting', 'Poison'),
+(505, 83, 106, 85, 490, 454, 4, 'False', 'Toxicroak', 65, 86, 65, 'Fighting', 'Poison'),
+(506, 74, 100, 46, 454, 455, 4, 'False', 'Carnivine', 72, 90, 72, '', 'Grass'),
+(507, 49, 49, 66, 330, 456, 4, 'False', 'Finneon', 56, 49, 61, '', 'Water'),
+(508, 69, 69, 91, 460, 457, 4, 'False', 'Lumineon', 76, 69, 86, '', 'Water'),
+(509, 45, 20, 50, 345, 458, 4, 'False', 'Mantyke', 50, 60, 120, 'Flying', 'Water'),
+(510, 60, 62, 40, 334, 459, 4, 'False', 'Snover', 50, 62, 60, 'Ice', 'Grass'),
+(511, 90, 92, 60, 494, 460, 4, 'False', 'Abomasnow', 75, 92, 85, 'Ice', 'Grass'),
+(512, 90, 132, 30, 594, 460, 4, 'False', 'AbomasnowMega Abomasnow', 105, 132, 105, 'Ice', 'Grass'),
+(513, 70, 120, 125, 510, 461, 4, 'False', 'Weavile', 65, 45, 85, 'Ice', 'Dark'),
+(514, 70, 70, 60, 535, 462, 4, 'False', 'Magnezone', 115, 130, 90, 'Steel', 'Electric'),
+(515, 110, 85, 50, 515, 463, 4, 'False', 'Lickilicky', 95, 80, 95, '', 'Normal'),
+(516, 115, 140, 40, 535, 464, 4, 'False', 'Rhyperior', 130, 55, 55, 'Rock', 'Ground'),
+(517, 100, 100, 50, 535, 465, 4, 'False', 'Tangrowth', 125, 110, 50, '', 'Grass'),
+(518, 75, 123, 95, 540, 466, 4, 'False', 'Electivire', 67, 95, 85, '', 'Electric'),
+(519, 75, 95, 83, 540, 467, 4, 'False', 'Magmortar', 67, 125, 95, '', 'Fire'),
+(520, 85, 50, 80, 545, 468, 4, 'False', 'Togekiss', 95, 120, 115, 'Flying', 'Fairy'),
+(521, 86, 76, 95, 515, 469, 4, 'False', 'Yanmega', 86, 116, 56, 'Flying', 'Bug'),
+(522, 65, 110, 95, 525, 470, 4, 'False', 'Leafeon', 130, 60, 65, '', 'Grass'),
+(523, 65, 60, 65, 525, 471, 4, 'False', 'Glaceon', 110, 130, 95, '', 'Ice'),
+(524, 75, 95, 95, 510, 472, 4, 'False', 'Gliscor', 125, 45, 75, 'Flying', 'Ground'),
+(525, 110, 130, 80, 530, 473, 4, 'False', 'Mamoswine', 80, 70, 60, 'Ground', 'Ice'),
+(526, 85, 80, 90, 535, 474, 4, 'False', 'Porygon-Z', 70, 135, 75, '', 'Normal'),
+(527, 68, 125, 80, 518, 475, 4, 'False', 'Gallade', 65, 65, 115, 'Fighting', 'Psychic'),
+(528, 68, 165, 110, 618, 475, 4, 'False', 'GalladeMega Gallade', 95, 65, 115, 'Fighting', 'Psychic'),
+(529, 60, 55, 40, 525, 476, 4, 'False', 'Probopass', 145, 75, 150, 'Steel', 'Rock'),
+(530, 45, 100, 45, 525, 477, 4, 'False', 'Dusknoir', 135, 65, 135, '', 'Ghost'),
+(531, 70, 80, 110, 480, 478, 4, 'False', 'Froslass', 70, 80, 70, 'Ghost', 'Ice'),
+(532, 50, 50, 91, 440, 479, 4, 'False', 'Rotom', 77, 95, 77, 'Ghost', 'Electric'),
+(533, 50, 65, 86, 520, 479, 4, 'False', 'RotomHeat Rotom', 107, 105, 107, 'Fire', 'Electric'),
+(534, 50, 65, 86, 520, 479, 4, 'False', 'RotomWash Rotom', 107, 105, 107, 'Water', 'Electric'),
+(535, 50, 65, 86, 520, 479, 4, 'False', 'RotomFrost Rotom', 107, 105, 107, 'Ice', 'Electric'),
+(536, 50, 65, 86, 520, 479, 4, 'False', 'RotomFan Rotom', 107, 105, 107, 'Flying', 'Electric'),
+(537, 50, 65, 86, 520, 479, 4, 'False', 'RotomMow Rotom', 107, 105, 107, 'Grass', 'Electric'),
+(538, 75, 75, 95, 580, 480, 4, 'True', 'Uxie', 130, 75, 130, '', 'Psychic'),
+(539, 80, 105, 80, 580, 481, 4, 'True', 'Mesprit', 105, 105, 105, '', 'Psychic'),
+(540, 75, 125, 115, 580, 482, 4, 'True', 'Azelf', 70, 125, 70, '', 'Psychic'),
+(541, 100, 120, 90, 680, 483, 4, 'True', 'Dialga', 120, 150, 100, 'Dragon', 'Steel'),
+(542, 90, 120, 100, 680, 484, 4, 'True', 'Palkia', 100, 150, 120, 'Dragon', 'Water'),
+(543, 91, 90, 77, 600, 485, 4, 'True', 'Heatran', 106, 130, 106, 'Steel', 'Fire'),
+(544, 110, 160, 100, 670, 486, 4, 'True', 'Regigigas', 110, 80, 110, '', 'Normal'),
+(545, 150, 100, 90, 680, 487, 4, 'True', 'GiratinaAltered Forme', 120, 100, 120, 'Dragon', 'Ghost'),
+(546, 150, 120, 90, 680, 487, 4, 'True', 'GiratinaOrigin Forme', 100, 120, 100, 'Dragon', 'Ghost'),
+(547, 120, 70, 85, 600, 488, 4, 'False', 'Cresselia', 120, 75, 130, '', 'Psychic'),
+(548, 80, 80, 80, 480, 489, 4, 'False', 'Phione', 80, 80, 80, '', 'Water'),
+(549, 100, 100, 100, 600, 490, 4, 'False', 'Manaphy', 100, 100, 100, '', 'Water'),
+(550, 70, 90, 125, 600, 491, 4, 'True', 'Darkrai', 90, 135, 90, '', 'Dark'),
+(551, 100, 100, 100, 600, 492, 4, 'True', 'ShayminLand Forme', 100, 100, 100, '', 'Grass'),
+(552, 100, 103, 127, 600, 492, 4, 'True', 'ShayminSky Forme', 75, 120, 75, 'Flying', 'Grass'),
+(553, 120, 120, 120, 720, 493, 4, 'True', 'Arceus', 120, 120, 120, '', 'Normal'),
+(554, 100, 100, 100, 600, 494, 5, 'True', 'Victini', 100, 100, 100, 'Fire', 'Psychic'),
+(555, 45, 45, 63, 308, 495, 5, 'False', 'Snivy', 55, 45, 55, '', 'Grass'),
+(556, 60, 60, 83, 413, 496, 5, 'False', 'Servine', 75, 60, 75, '', 'Grass'),
+(557, 75, 75, 113, 528, 497, 5, 'False', 'Serperior', 95, 75, 95, '', 'Grass'),
+(558, 65, 63, 45, 308, 498, 5, 'False', 'Tepig', 45, 45, 45, '', 'Fire'),
+(559, 90, 93, 55, 418, 499, 5, 'False', 'Pignite', 55, 70, 55, 'Fighting', 'Fire'),
+(560, 110, 123, 65, 528, 500, 5, 'False', 'Emboar', 65, 100, 65, 'Fighting', 'Fire'),
+(561, 55, 55, 45, 308, 501, 5, 'False', 'Oshawott', 45, 63, 45, '', 'Water'),
+(562, 75, 75, 60, 413, 502, 5, 'False', 'Dewott', 60, 83, 60, '', 'Water'),
+(563, 95, 100, 70, 528, 503, 5, 'False', 'Samurott', 85, 108, 70, '', 'Water'),
+(564, 45, 55, 42, 255, 504, 5, 'False', 'Patrat', 39, 35, 39, '', 'Normal'),
+(565, 60, 85, 77, 420, 505, 5, 'False', 'Watchog', 69, 60, 69, '', 'Normal'),
+(566, 45, 60, 55, 275, 506, 5, 'False', 'Lillipup', 45, 25, 45, '', 'Normal'),
+(567, 65, 80, 60, 370, 507, 5, 'False', 'Herdier', 65, 35, 65, '', 'Normal'),
+(568, 85, 110, 80, 500, 508, 5, 'False', 'Stoutland', 90, 45, 90, '', 'Normal'),
+(569, 41, 50, 66, 281, 509, 5, 'False', 'Purrloin', 37, 50, 37, '', 'Dark'),
+(570, 64, 88, 106, 446, 510, 5, 'False', 'Liepard', 50, 88, 50, '', 'Dark'),
+(571, 50, 53, 64, 316, 511, 5, 'False', 'Pansage', 48, 53, 48, '', 'Grass'),
+(572, 75, 98, 101, 498, 512, 5, 'False', 'Simisage', 63, 98, 63, '', 'Grass'),
+(573, 50, 53, 64, 316, 513, 5, 'False', 'Pansear', 48, 53, 48, '', 'Fire'),
+(574, 75, 98, 101, 498, 514, 5, 'False', 'Simisear', 63, 98, 63, '', 'Fire'),
+(575, 50, 53, 64, 316, 515, 5, 'False', 'Panpour', 48, 53, 48, '', 'Water'),
+(576, 75, 98, 101, 498, 516, 5, 'False', 'Simipour', 63, 98, 63, '', 'Water'),
+(577, 76, 25, 24, 292, 517, 5, 'False', 'Munna', 45, 67, 55, '', 'Psychic'),
+(578, 116, 55, 29, 487, 518, 5, 'False', 'Musharna', 85, 107, 95, '', 'Psychic'),
+(579, 50, 55, 43, 264, 519, 5, 'False', 'Pidove', 50, 36, 30, 'Flying', 'Normal'),
+(580, 62, 77, 65, 358, 520, 5, 'False', 'Tranquill', 62, 50, 42, 'Flying', 'Normal'),
+(581, 80, 115, 93, 488, 521, 5, 'False', 'Unfezant', 80, 65, 55, 'Flying', 'Normal'),
+(582, 45, 60, 76, 295, 522, 5, 'False', 'Blitzle', 32, 50, 32, '', 'Electric'),
+(583, 75, 100, 116, 497, 523, 5, 'False', 'Zebstrika', 63, 80, 63, '', 'Electric'),
+(584, 55, 75, 15, 280, 524, 5, 'False', 'Roggenrola', 85, 25, 25, '', 'Rock'),
+(585, 70, 105, 20, 390, 525, 5, 'False', 'Boldore', 105, 50, 40, '', 'Rock'),
+(586, 85, 135, 25, 515, 526, 5, 'False', 'Gigalith', 130, 60, 80, '', 'Rock'),
+(587, 55, 45, 72, 313, 527, 5, 'False', 'Woobat', 43, 55, 43, 'Flying', 'Psychic'),
+(588, 67, 57, 114, 425, 528, 5, 'False', 'Swoobat', 55, 77, 55, 'Flying', 'Psychic'),
+(589, 60, 85, 68, 328, 529, 5, 'False', 'Drilbur', 40, 30, 45, '', 'Ground'),
+(590, 110, 135, 88, 508, 530, 5, 'False', 'Excadrill', 60, 50, 65, 'Steel', 'Ground'),
+(591, 103, 60, 50, 445, 531, 5, 'False', 'Audino', 86, 60, 86, '', 'Normal'),
+(592, 103, 60, 50, 545, 531, 5, 'False', 'AudinoMega Audino', 126, 80, 126, 'Fairy', 'Normal'),
+(593, 75, 80, 35, 305, 532, 5, 'False', 'Timburr', 55, 25, 35, '', 'Fighting'),
+(594, 85, 105, 40, 405, 533, 5, 'False', 'Gurdurr', 85, 40, 50, '', 'Fighting'),
+(595, 105, 140, 45, 505, 534, 5, 'False', 'Conkeldurr', 95, 55, 65, '', 'Fighting'),
+(596, 50, 50, 64, 294, 535, 5, 'False', 'Tympole', 40, 50, 40, '', 'Water'),
+(597, 75, 65, 69, 384, 536, 5, 'False', 'Palpitoad', 55, 65, 55, 'Ground', 'Water'),
+(598, 105, 95, 74, 509, 537, 5, 'False', 'Seismitoad', 75, 85, 75, 'Ground', 'Water'),
+(599, 120, 100, 45, 465, 538, 5, 'False', 'Throh', 85, 30, 85, '', 'Fighting'),
+(600, 75, 125, 85, 465, 539, 5, 'False', 'Sawk', 75, 30, 75, '', 'Fighting'),
+(601, 45, 53, 42, 310, 540, 5, 'False', 'Sewaddle', 70, 40, 60, 'Grass', 'Bug'),
+(602, 55, 63, 42, 380, 541, 5, 'False', 'Swadloon', 90, 50, 80, 'Grass', 'Bug'),
+(603, 75, 103, 92, 500, 542, 5, 'False', 'Leavanny', 80, 70, 80, 'Grass', 'Bug'),
+(604, 30, 45, 57, 260, 543, 5, 'False', 'Venipede', 59, 30, 39, 'Poison', 'Bug'),
+(605, 40, 55, 47, 360, 544, 5, 'False', 'Whirlipede', 99, 40, 79, 'Poison', 'Bug'),
+(606, 60, 100, 112, 485, 545, 5, 'False', 'Scolipede', 89, 55, 69, 'Poison', 'Bug'),
+(607, 40, 27, 66, 280, 546, 5, 'False', 'Cottonee', 60, 37, 50, 'Fairy', 'Grass'),
+(608, 60, 67, 116, 480, 547, 5, 'False', 'Whimsicott', 85, 77, 75, 'Fairy', 'Grass'),
+(609, 45, 35, 30, 280, 548, 5, 'False', 'Petilil', 50, 70, 50, '', 'Grass'),
+(610, 70, 60, 90, 480, 549, 5, 'False', 'Lilligant', 75, 110, 75, '', 'Grass'),
+(611, 70, 92, 98, 460, 550, 5, 'False', 'Basculin', 65, 80, 55, '', 'Water'),
+(612, 50, 72, 65, 292, 551, 5, 'False', 'Sandile', 35, 35, 35, 'Dark', 'Ground'),
+(613, 60, 82, 74, 351, 552, 5, 'False', 'Krokorok', 45, 45, 45, 'Dark', 'Ground'),
+(614, 95, 117, 92, 519, 553, 5, 'False', 'Krookodile', 80, 65, 70, 'Dark', 'Ground'),
+(615, 70, 90, 50, 315, 554, 5, 'False', 'Darumaka', 45, 15, 45, '', 'Fire'),
+(616, 105, 140, 95, 480, 555, 5, 'False', 'DarmanitanStandard Mode', 55, 30, 55, '', 'Fire'),
+(617, 105, 30, 55, 540, 555, 5, 'False', 'DarmanitanZen Mode', 105, 140, 105, 'Psychic', 'Fire'),
+(618, 75, 86, 60, 461, 556, 5, 'False', 'Maractus', 67, 106, 67, '', 'Grass'),
+(619, 50, 65, 55, 325, 557, 5, 'False', 'Dwebble', 85, 35, 35, 'Rock', 'Bug');
+INSERT INTO `pokemons` (`id`, `attack`, `defense`, `generation`, `hp`, `id_pokemon`, `legendary`, `legenday_descripcion`, `name`, `sp_atk`, `sp_def`, `speed`, `total`, `type`) VALUES
+(620, 70, 95, 45, 475, 558, 5, 'False', 'Crustle', 125, 65, 75, 'Rock', 'Bug'),
+(621, 50, 75, 48, 348, 559, 5, 'False', 'Scraggy', 70, 35, 70, 'Fighting', 'Dark'),
+(622, 65, 90, 58, 488, 560, 5, 'False', 'Scrafty', 115, 45, 115, 'Fighting', 'Dark'),
+(623, 72, 58, 97, 490, 561, 5, 'False', 'Sigilyph', 80, 103, 80, 'Flying', 'Psychic'),
+(624, 38, 30, 30, 303, 562, 5, 'False', 'Yamask', 85, 55, 65, '', 'Ghost'),
+(625, 58, 50, 30, 483, 563, 5, 'False', 'Cofagrigus', 145, 95, 105, '', 'Ghost'),
+(626, 54, 78, 22, 355, 564, 5, 'False', 'Tirtouga', 103, 53, 45, 'Rock', 'Water'),
+(627, 74, 108, 32, 495, 565, 5, 'False', 'Carracosta', 133, 83, 65, 'Rock', 'Water'),
+(628, 55, 112, 70, 401, 566, 5, 'False', 'Archen', 45, 74, 45, 'Flying', 'Rock'),
+(629, 75, 140, 110, 567, 567, 5, 'False', 'Archeops', 65, 112, 65, 'Flying', 'Rock'),
+(630, 50, 50, 65, 329, 568, 5, 'False', 'Trubbish', 62, 40, 62, '', 'Poison'),
+(631, 80, 95, 75, 474, 569, 5, 'False', 'Garbodor', 82, 60, 82, '', 'Poison'),
+(632, 40, 65, 65, 330, 570, 5, 'False', 'Zorua', 40, 80, 40, '', 'Dark'),
+(633, 60, 105, 105, 510, 571, 5, 'False', 'Zoroark', 60, 120, 60, '', 'Dark'),
+(634, 55, 50, 75, 300, 572, 5, 'False', 'Minccino', 40, 40, 40, '', 'Normal'),
+(635, 75, 95, 115, 470, 573, 5, 'False', 'Cinccino', 60, 65, 60, '', 'Normal'),
+(636, 45, 30, 45, 290, 574, 5, 'False', 'Gothita', 50, 55, 65, '', 'Psychic'),
+(637, 60, 45, 55, 390, 575, 5, 'False', 'Gothorita', 70, 75, 85, '', 'Psychic'),
+(638, 70, 55, 65, 490, 576, 5, 'False', 'Gothitelle', 95, 95, 110, '', 'Psychic'),
+(639, 45, 30, 20, 290, 577, 5, 'False', 'Solosis', 40, 105, 50, '', 'Psychic'),
+(640, 65, 40, 30, 370, 578, 5, 'False', 'Duosion', 50, 125, 60, '', 'Psychic'),
+(641, 110, 65, 30, 490, 579, 5, 'False', 'Reuniclus', 75, 125, 85, '', 'Psychic'),
+(642, 62, 44, 55, 305, 580, 5, 'False', 'Ducklett', 50, 44, 50, 'Flying', 'Water'),
+(643, 75, 87, 98, 473, 581, 5, 'False', 'Swanna', 63, 87, 63, 'Flying', 'Water'),
+(644, 36, 50, 44, 305, 582, 5, 'False', 'Vanillite', 50, 65, 60, '', 'Ice'),
+(645, 51, 65, 59, 395, 583, 5, 'False', 'Vanillish', 65, 80, 75, '', 'Ice'),
+(646, 71, 95, 79, 535, 584, 5, 'False', 'Vanilluxe', 85, 110, 95, '', 'Ice'),
+(647, 60, 60, 75, 335, 585, 5, 'False', 'Deerling', 50, 40, 50, 'Grass', 'Normal'),
+(648, 80, 100, 95, 475, 586, 5, 'False', 'Sawsbuck', 70, 60, 70, 'Grass', 'Normal'),
+(649, 55, 75, 103, 428, 587, 5, 'False', 'Emolga', 60, 75, 60, 'Flying', 'Electric'),
+(650, 50, 75, 60, 315, 588, 5, 'False', 'Karrablast', 45, 40, 45, '', 'Bug'),
+(651, 70, 135, 20, 495, 589, 5, 'False', 'Escavalier', 105, 60, 105, 'Steel', 'Bug'),
+(652, 69, 55, 15, 294, 590, 5, 'False', 'Foongus', 45, 55, 55, 'Poison', 'Grass'),
+(653, 114, 85, 30, 464, 591, 5, 'False', 'Amoonguss', 70, 85, 80, 'Poison', 'Grass'),
+(654, 55, 40, 40, 335, 592, 5, 'False', 'Frillish', 50, 65, 85, 'Ghost', 'Water'),
+(655, 100, 60, 60, 480, 593, 5, 'False', 'Jellicent', 70, 85, 105, 'Ghost', 'Water'),
+(656, 165, 75, 65, 470, 594, 5, 'False', 'Alomomola', 80, 40, 45, '', 'Water'),
+(657, 50, 47, 65, 319, 595, 5, 'False', 'Joltik', 50, 57, 50, 'Electric', 'Bug'),
+(658, 70, 77, 108, 472, 596, 5, 'False', 'Galvantula', 60, 97, 60, 'Electric', 'Bug'),
+(659, 44, 50, 10, 305, 597, 5, 'False', 'Ferroseed', 91, 24, 86, 'Steel', 'Grass'),
+(660, 74, 94, 20, 489, 598, 5, 'False', 'Ferrothorn', 131, 54, 116, 'Steel', 'Grass'),
+(661, 40, 55, 30, 300, 599, 5, 'False', 'Klink', 70, 45, 60, '', 'Steel'),
+(662, 60, 80, 50, 440, 600, 5, 'False', 'Klang', 95, 70, 85, '', 'Steel'),
+(663, 60, 100, 90, 520, 601, 5, 'False', 'Klinklang', 115, 70, 85, '', 'Steel'),
+(664, 35, 55, 60, 275, 602, 5, 'False', 'Tynamo', 40, 45, 40, '', 'Electric'),
+(665, 65, 85, 40, 405, 603, 5, 'False', 'Eelektrik', 70, 75, 70, '', 'Electric'),
+(666, 85, 115, 50, 515, 604, 5, 'False', 'Eelektross', 80, 105, 80, '', 'Electric'),
+(667, 55, 55, 30, 335, 605, 5, 'False', 'Elgyem', 55, 85, 55, '', 'Psychic'),
+(668, 75, 75, 40, 485, 606, 5, 'False', 'Beheeyem', 75, 125, 95, '', 'Psychic'),
+(669, 50, 30, 20, 275, 607, 5, 'False', 'Litwick', 55, 65, 55, 'Fire', 'Ghost'),
+(670, 60, 40, 55, 370, 608, 5, 'False', 'Lampent', 60, 95, 60, 'Fire', 'Ghost'),
+(671, 60, 55, 80, 520, 609, 5, 'False', 'Chandelure', 90, 145, 90, 'Fire', 'Ghost'),
+(672, 46, 87, 57, 320, 610, 5, 'False', 'Axew', 60, 30, 40, '', 'Dragon'),
+(673, 66, 117, 67, 410, 611, 5, 'False', 'Fraxure', 70, 40, 50, '', 'Dragon'),
+(674, 76, 147, 97, 540, 612, 5, 'False', 'Haxorus', 90, 60, 70, '', 'Dragon'),
+(675, 55, 70, 40, 305, 613, 5, 'False', 'Cubchoo', 40, 60, 40, '', 'Ice'),
+(676, 95, 110, 50, 485, 614, 5, 'False', 'Beartic', 80, 70, 80, '', 'Ice'),
+(677, 70, 50, 105, 485, 615, 5, 'False', 'Cryogonal', 30, 95, 135, '', 'Ice'),
+(678, 50, 40, 25, 305, 616, 5, 'False', 'Shelmet', 85, 40, 65, '', 'Bug'),
+(679, 80, 70, 145, 495, 617, 5, 'False', 'Accelgor', 40, 100, 60, '', 'Bug'),
+(680, 109, 66, 32, 471, 618, 5, 'False', 'Stunfisk', 84, 81, 99, 'Electric', 'Ground'),
+(681, 45, 85, 65, 350, 619, 5, 'False', 'Mienfoo', 50, 55, 50, '', 'Fighting'),
+(682, 65, 125, 105, 510, 620, 5, 'False', 'Mienshao', 60, 95, 60, '', 'Fighting'),
+(683, 77, 120, 48, 485, 621, 5, 'False', 'Druddigon', 90, 60, 90, '', 'Dragon'),
+(684, 59, 74, 35, 303, 622, 5, 'False', 'Golett', 50, 35, 50, 'Ghost', 'Ground'),
+(685, 89, 124, 55, 483, 623, 5, 'False', 'Golurk', 80, 55, 80, 'Ghost', 'Ground'),
+(686, 45, 85, 60, 340, 624, 5, 'False', 'Pawniard', 70, 40, 40, 'Steel', 'Dark'),
+(687, 65, 125, 70, 490, 625, 5, 'False', 'Bisharp', 100, 60, 70, 'Steel', 'Dark'),
+(688, 95, 110, 55, 490, 626, 5, 'False', 'Bouffalant', 95, 40, 95, '', 'Normal'),
+(689, 70, 83, 60, 350, 627, 5, 'False', 'Rufflet', 50, 37, 50, 'Flying', 'Normal'),
+(690, 100, 123, 80, 510, 628, 5, 'False', 'Braviary', 75, 57, 75, 'Flying', 'Normal'),
+(691, 70, 55, 60, 370, 629, 5, 'False', 'Vullaby', 75, 45, 65, 'Flying', 'Dark'),
+(692, 110, 65, 80, 510, 630, 5, 'False', 'Mandibuzz', 105, 55, 95, 'Flying', 'Dark'),
+(693, 85, 97, 65, 484, 631, 5, 'False', 'Heatmor', 66, 105, 66, '', 'Fire'),
+(694, 58, 109, 109, 484, 632, 5, 'False', 'Durant', 112, 48, 48, 'Steel', 'Bug'),
+(695, 52, 65, 38, 300, 633, 5, 'False', 'Deino', 50, 45, 50, 'Dragon', 'Dark'),
+(696, 72, 85, 58, 420, 634, 5, 'False', 'Zweilous', 70, 65, 70, 'Dragon', 'Dark'),
+(697, 92, 105, 98, 600, 635, 5, 'False', 'Hydreigon', 90, 125, 90, 'Dragon', 'Dark'),
+(698, 55, 85, 60, 360, 636, 5, 'False', 'Larvesta', 55, 50, 55, 'Fire', 'Bug'),
+(699, 85, 60, 100, 550, 637, 5, 'False', 'Volcarona', 65, 135, 105, 'Fire', 'Bug'),
+(700, 91, 90, 108, 580, 638, 5, 'True', 'Cobalion', 129, 90, 72, 'Fighting', 'Steel'),
+(701, 91, 129, 108, 580, 639, 5, 'True', 'Terrakion', 90, 72, 90, 'Fighting', 'Rock'),
+(702, 91, 90, 108, 580, 640, 5, 'True', 'Virizion', 72, 90, 129, 'Fighting', 'Grass'),
+(703, 79, 115, 111, 580, 641, 5, 'True', 'TornadusIncarnate Forme', 70, 125, 80, '', 'Flying'),
+(704, 79, 100, 121, 580, 641, 5, 'True', 'TornadusTherian Forme', 80, 110, 90, '', 'Flying'),
+(705, 79, 115, 111, 580, 642, 5, 'True', 'ThundurusIncarnate Forme', 70, 125, 80, 'Flying', 'Electric'),
+(706, 79, 105, 101, 580, 642, 5, 'True', 'ThundurusTherian Forme', 70, 145, 80, 'Flying', 'Electric'),
+(707, 100, 120, 90, 680, 643, 5, 'True', 'Reshiram', 100, 150, 120, 'Fire', 'Dragon'),
+(708, 100, 150, 90, 680, 644, 5, 'True', 'Zekrom', 120, 120, 100, 'Electric', 'Dragon'),
+(709, 89, 125, 101, 600, 645, 5, 'True', 'LandorusIncarnate Forme', 90, 115, 80, 'Flying', 'Ground'),
+(710, 89, 145, 91, 600, 645, 5, 'True', 'LandorusTherian Forme', 90, 105, 80, 'Flying', 'Ground'),
+(711, 125, 130, 95, 660, 646, 5, 'True', 'Kyurem', 90, 130, 90, 'Ice', 'Dragon'),
+(712, 125, 170, 95, 700, 646, 5, 'True', 'KyuremBlack Kyurem', 100, 120, 90, 'Ice', 'Dragon'),
+(713, 125, 120, 95, 700, 646, 5, 'True', 'KyuremWhite Kyurem', 90, 170, 100, 'Ice', 'Dragon'),
+(714, 91, 72, 108, 580, 647, 5, 'False', 'KeldeoOrdinary Forme', 90, 129, 90, 'Fighting', 'Water'),
+(715, 91, 72, 108, 580, 647, 5, 'False', 'KeldeoResolute Forme', 90, 129, 90, 'Fighting', 'Water'),
+(716, 100, 77, 90, 600, 648, 5, 'False', 'MeloettaAria Forme', 77, 128, 128, 'Psychic', 'Normal'),
+(717, 100, 128, 128, 600, 648, 5, 'False', 'MeloettaPirouette Forme', 90, 77, 77, 'Fighting', 'Normal'),
+(718, 71, 120, 99, 600, 649, 5, 'False', 'Genesect', 95, 120, 95, 'Steel', 'Bug'),
+(719, 56, 61, 38, 313, 650, 6, 'False', 'Chespin', 65, 48, 45, '', 'Grass'),
+(720, 61, 78, 57, 405, 651, 6, 'False', 'Quilladin', 95, 56, 58, '', 'Grass'),
+(721, 88, 107, 64, 530, 652, 6, 'False', 'Chesnaught', 122, 74, 75, 'Fighting', 'Grass'),
+(722, 40, 45, 60, 307, 653, 6, 'False', 'Fennekin', 40, 62, 60, '', 'Fire'),
+(723, 59, 59, 73, 409, 654, 6, 'False', 'Braixen', 58, 90, 70, '', 'Fire'),
+(724, 75, 69, 104, 534, 655, 6, 'False', 'Delphox', 72, 114, 100, 'Psychic', 'Fire'),
+(725, 41, 56, 71, 314, 656, 6, 'False', 'Froakie', 40, 62, 44, '', 'Water'),
+(726, 54, 63, 97, 405, 657, 6, 'False', 'Frogadier', 52, 83, 56, '', 'Water'),
+(727, 72, 95, 122, 530, 658, 6, 'False', 'Greninja', 67, 103, 71, 'Dark', 'Water'),
+(728, 38, 36, 57, 237, 659, 6, 'False', 'Bunnelby', 38, 32, 36, '', 'Normal'),
+(729, 85, 56, 78, 423, 660, 6, 'False', 'Diggersby', 77, 50, 77, 'Ground', 'Normal'),
+(730, 45, 50, 62, 278, 661, 6, 'False', 'Fletchling', 43, 40, 38, 'Flying', 'Normal'),
+(731, 62, 73, 84, 382, 662, 6, 'False', 'Fletchinder', 55, 56, 52, 'Flying', 'Fire'),
+(732, 78, 81, 126, 499, 663, 6, 'False', 'Talonflame', 71, 74, 69, 'Flying', 'Fire'),
+(733, 38, 35, 35, 200, 664, 6, 'False', 'Scatterbug', 40, 27, 25, '', 'Bug'),
+(734, 45, 22, 29, 213, 665, 6, 'False', 'Spewpa', 60, 27, 30, '', 'Bug'),
+(735, 80, 52, 89, 411, 666, 6, 'False', 'Vivillon', 50, 90, 50, 'Flying', 'Bug'),
+(736, 62, 50, 72, 369, 667, 6, 'False', 'Litleo', 58, 73, 54, 'Normal', 'Fire'),
+(737, 86, 68, 106, 507, 668, 6, 'False', 'Pyroar', 72, 109, 66, 'Normal', 'Fire'),
+(738, 44, 38, 42, 303, 669, 6, 'False', 'FlabÃ©bÃ©', 39, 61, 79, '', 'Fairy'),
+(739, 54, 45, 52, 371, 670, 6, 'False', 'Floette', 47, 75, 98, '', 'Fairy'),
+(740, 78, 65, 75, 552, 671, 6, 'False', 'Florges', 68, 112, 154, '', 'Fairy'),
+(741, 66, 65, 52, 350, 672, 6, 'False', 'Skiddo', 48, 62, 57, '', 'Grass'),
+(742, 123, 100, 68, 531, 673, 6, 'False', 'Gogoat', 62, 97, 81, '', 'Grass'),
+(743, 67, 82, 43, 348, 674, 6, 'False', 'Pancham', 62, 46, 48, '', 'Fighting'),
+(744, 95, 124, 58, 495, 675, 6, 'False', 'Pangoro', 78, 69, 71, 'Dark', 'Fighting'),
+(745, 75, 80, 102, 472, 676, 6, 'False', 'Furfrou', 60, 65, 90, '', 'Normal'),
+(746, 62, 48, 68, 355, 677, 6, 'False', 'Espurr', 54, 63, 60, '', 'Psychic'),
+(747, 74, 48, 104, 466, 678, 6, 'False', 'MeowsticMale', 76, 83, 81, '', 'Psychic'),
+(748, 74, 48, 104, 466, 678, 6, 'False', 'MeowsticFemale', 76, 83, 81, '', 'Psychic'),
+(749, 45, 80, 28, 325, 679, 6, 'False', 'Honedge', 100, 35, 37, 'Ghost', 'Steel'),
+(750, 59, 110, 35, 448, 680, 6, 'False', 'Doublade', 150, 45, 49, 'Ghost', 'Steel'),
+(751, 60, 150, 60, 520, 681, 6, 'False', 'AegislashBlade Forme', 50, 150, 50, 'Ghost', 'Steel'),
+(752, 60, 50, 60, 520, 681, 6, 'False', 'AegislashShield Forme', 150, 50, 150, 'Ghost', 'Steel'),
+(753, 78, 52, 23, 341, 682, 6, 'False', 'Spritzee', 60, 63, 65, '', 'Fairy'),
+(754, 101, 72, 29, 462, 683, 6, 'False', 'Aromatisse', 72, 99, 89, '', 'Fairy'),
+(755, 62, 48, 49, 341, 684, 6, 'False', 'Swirlix', 66, 59, 57, '', 'Fairy'),
+(756, 82, 80, 72, 480, 685, 6, 'False', 'Slurpuff', 86, 85, 75, '', 'Fairy'),
+(757, 53, 54, 45, 288, 686, 6, 'False', 'Inkay', 53, 37, 46, 'Psychic', 'Dark'),
+(758, 86, 92, 73, 482, 687, 6, 'False', 'Malamar', 88, 68, 75, 'Psychic', 'Dark'),
+(759, 42, 52, 50, 306, 688, 6, 'False', 'Binacle', 67, 39, 56, 'Water', 'Rock'),
+(760, 72, 105, 68, 500, 689, 6, 'False', 'Barbaracle', 115, 54, 86, 'Water', 'Rock'),
+(761, 50, 60, 30, 320, 690, 6, 'False', 'Skrelp', 60, 60, 60, 'Water', 'Poison'),
+(762, 65, 75, 44, 494, 691, 6, 'False', 'Dragalge', 90, 97, 123, 'Dragon', 'Poison'),
+(763, 50, 53, 44, 330, 692, 6, 'False', 'Clauncher', 62, 58, 63, '', 'Water'),
+(764, 71, 73, 59, 500, 693, 6, 'False', 'Clawitzer', 88, 120, 89, '', 'Water'),
+(765, 44, 38, 70, 289, 694, 6, 'False', 'Helioptile', 33, 61, 43, 'Normal', 'Electric'),
+(766, 62, 55, 109, 481, 695, 6, 'False', 'Heliolisk', 52, 109, 94, 'Normal', 'Electric'),
+(767, 58, 89, 48, 362, 696, 6, 'False', 'Tyrunt', 77, 45, 45, 'Dragon', 'Rock'),
+(768, 82, 121, 71, 521, 697, 6, 'False', 'Tyrantrum', 119, 69, 59, 'Dragon', 'Rock'),
+(769, 77, 59, 46, 362, 698, 6, 'False', 'Amaura', 50, 67, 63, 'Ice', 'Rock'),
+(770, 123, 77, 58, 521, 699, 6, 'False', 'Aurorus', 72, 99, 92, 'Ice', 'Rock'),
+(771, 95, 65, 60, 525, 700, 6, 'False', 'Sylveon', 65, 110, 130, '', 'Fairy'),
+(772, 78, 92, 118, 500, 701, 6, 'False', 'Hawlucha', 75, 74, 63, 'Flying', 'Fighting'),
+(773, 67, 58, 101, 431, 702, 6, 'False', 'Dedenne', 57, 81, 67, 'Fairy', 'Electric'),
+(774, 50, 50, 50, 500, 703, 6, 'False', 'Carbink', 150, 50, 150, 'Fairy', 'Rock'),
+(775, 45, 50, 40, 300, 704, 6, 'False', 'Goomy', 35, 55, 75, '', 'Dragon'),
+(776, 68, 75, 60, 452, 705, 6, 'False', 'Sliggoo', 53, 83, 113, '', 'Dragon'),
+(777, 90, 100, 80, 600, 706, 6, 'False', 'Goodra', 70, 110, 150, '', 'Dragon'),
+(778, 57, 80, 75, 470, 707, 6, 'False', 'Klefki', 91, 80, 87, 'Fairy', 'Steel'),
+(779, 43, 70, 38, 309, 708, 6, 'False', 'Phantump', 48, 50, 60, 'Grass', 'Ghost'),
+(780, 85, 110, 56, 474, 709, 6, 'False', 'Trevenant', 76, 65, 82, 'Grass', 'Ghost'),
+(781, 49, 66, 51, 335, 710, 6, 'False', 'PumpkabooAverage Size', 70, 44, 55, 'Grass', 'Ghost'),
+(782, 44, 66, 56, 335, 710, 6, 'False', 'PumpkabooSmall Size', 70, 44, 55, 'Grass', 'Ghost'),
+(783, 54, 66, 46, 335, 710, 6, 'False', 'PumpkabooLarge Size', 70, 44, 55, 'Grass', 'Ghost'),
+(784, 59, 66, 41, 335, 710, 6, 'False', 'PumpkabooSuper Size', 70, 44, 55, 'Grass', 'Ghost'),
+(785, 65, 90, 84, 494, 711, 6, 'False', 'GourgeistAverage Size', 122, 58, 75, 'Grass', 'Ghost'),
+(786, 55, 85, 99, 494, 711, 6, 'False', 'GourgeistSmall Size', 122, 58, 75, 'Grass', 'Ghost'),
+(787, 75, 95, 69, 494, 711, 6, 'False', 'GourgeistLarge Size', 122, 58, 75, 'Grass', 'Ghost'),
+(788, 85, 100, 54, 494, 711, 6, 'False', 'GourgeistSuper Size', 122, 58, 75, 'Grass', 'Ghost'),
+(789, 55, 69, 28, 304, 712, 6, 'False', 'Bergmite', 85, 32, 35, '', 'Ice'),
+(790, 95, 117, 28, 514, 713, 6, 'False', 'Avalugg', 184, 44, 46, '', 'Ice'),
+(791, 40, 30, 55, 245, 714, 6, 'False', 'Noibat', 35, 45, 40, 'Dragon', 'Flying'),
+(792, 85, 70, 123, 535, 715, 6, 'False', 'Noivern', 80, 97, 80, 'Dragon', 'Flying'),
+(793, 126, 131, 99, 680, 716, 6, 'True', 'Xerneas', 95, 131, 98, '', 'Fairy'),
+(794, 126, 131, 99, 680, 717, 6, 'True', 'Yveltal', 95, 131, 98, 'Flying', 'Dark'),
+(795, 108, 100, 95, 600, 718, 6, 'True', 'Zygarde50% Forme', 121, 81, 95, 'Ground', 'Dragon'),
+(796, 50, 100, 50, 600, 719, 6, 'True', 'Diancie', 150, 100, 150, 'Fairy', 'Rock'),
+(797, 50, 160, 110, 700, 719, 6, 'True', 'DiancieMega Diancie', 110, 160, 110, 'Fairy', 'Rock'),
+(798, 80, 110, 70, 600, 720, 6, 'True', 'HoopaHoopa Confined', 60, 150, 130, 'Ghost', 'Psychic'),
+(799, 80, 160, 80, 680, 720, 6, 'True', 'HoopaHoopa Unbound', 60, 170, 130, 'Dark', 'Psychic'),
+(800, 80, 110, 70, 600, 721, 6, 'True', 'Volcanion', 120, 130, 90, 'Water', 'Fire');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `pokemons`
+--
+ALTER TABLE `pokemons`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `pokemons`
+--
+ALTER TABLE `pokemons`
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=801;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
