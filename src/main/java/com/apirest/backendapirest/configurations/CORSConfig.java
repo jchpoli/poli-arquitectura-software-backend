@@ -2,7 +2,7 @@ package com.apirest.backendapirest.configurations;
 
 /**
  *
- * @author Jonathan Castelblanco Higuera <jcastelblanco@sistemasenlinea.com.co>
+ * @author Jonathan Castelblanco Higuera <jocastelblanco3@poligran.edu.co>
  */
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
