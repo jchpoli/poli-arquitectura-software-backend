@@ -1,5 +1,6 @@
 package com.apirest.backendapirest.models.entity;
 
+import io.swagger.annotations.ApiModel;
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+@ApiModel("Model Pokemon")
 @Entity
 @Table(name = "pokemons")
 public class Pokemon implements Serializable {

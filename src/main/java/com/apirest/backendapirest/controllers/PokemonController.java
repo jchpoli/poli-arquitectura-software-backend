@@ -7,6 +7,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import com.apirest.backendapirest.models.entity.Pokemon;
 import com.apirest.backendapirest.services.IPokemonService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.BeanUtils;
@@ -26,17 +28,20 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Api(value = "Pokemon microservicio", description = "Este API tiene el CRUD para Pokemones")
 public class PokemonController {
 
     @Autowired
     private IPokemonService pokemonService;
 
     @GetMapping("/pokemon")
+    @ApiOperation(value = "Listar todos los pokemones", notes = "Retorna todos los pokemones" )
     public List<Pokemon> get() {
         return pokemonService.listPokemons();
     }
 
     @GetMapping("/pokemon/{id}")
+    @ApiOperation(value = "Encuentra un pokemon por el Id", notes = "Retorna el pokemon del Id" )
     public ResponseEntity<?> getPokemon(@PathVariable Long id) {
 
         Pokemon pokemon = null;
@@ -59,6 +64,7 @@ public class PokemonController {
     }
 
     @PostMapping("/pokemon")
+    @ApiOperation(value = "Crea un pokemon", notes = "Crea un nuevo pokemon" )
     public ResponseEntity<?> create(@RequestBody Pokemon pokemon, BindingResult result) {
 
         Pokemon pokemonNew = null;
@@ -88,6 +94,7 @@ public class PokemonController {
     }
 
     @PutMapping("/pokemon/{id}")
+    @ApiOperation(value = "Actualizar un pokemon", notes = "Actualiza un pokemon por el Id" )
     public ResponseEntity<?> update(@RequestBody Pokemon pokemon, BindingResult result, @PathVariable Long id) {
 
         Pokemon pokemonActual = pokemonService.findById(id);
@@ -127,6 +134,7 @@ public class PokemonController {
     }
 
     @DeleteMapping("/pokemon/{id}")
+    @ApiOperation(value = "Eliminar un pokemon", notes = "Elimina un pokemon por el Id" )
     public ResponseEntity<?> delete(@PathVariable Long id) {
 
         Map<String, Object> response = new HashMap<>();
